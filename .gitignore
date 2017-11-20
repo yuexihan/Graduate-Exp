@@ -1,0 +1,8 @@
+*.txt
+*.index
+*.data*
+*.meta
+*.csv
+*.tsv
+*.json
+
