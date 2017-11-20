@@ -5,4 +5,5 @@
 *.csv
 *.tsv
 *.json
-
+checkpoint
+*.swp
