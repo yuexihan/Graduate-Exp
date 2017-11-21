@@ -14,36 +14,37 @@ flags.DEFINE_integer('maxlen', 1000, 'Documents whose words more than this valve
 
 FLAGS = flags.FLAGS
 
+
 def main(_):
-	print 'begin loading data...'
-	loader = Loader.loader(FLAGS.mincount, FLAGS.maxlen)
-	print 'finished loading data\n'
-	print 'begin building model...'
-	model = Model(
-		loader, 
-		embedding_size = FLAGS.embedding_size, 
-		batch_size = FLAGS.batch_size, 
-		max_epoch = FLAGS.max_epoch,
-		learning_rate = FLAGS.learning_rate,
-		keep_prob = FLAGS.keep_prob
-	)
-	print 'finished building model\n'
-	if FLAGS.retrain:
-		model.train()
-		test_accuracy = model.test()
-	else:
-		try:
-			model.load('save', 'best')
-			test_accuracy = model.test()
-		except tf.errors.NotFoundError:
-			model.train()
-			test_accuracy = model.test()
-		except Exception, e:
-			print 'Error may be caused by changing parameters without retraining. Try setting --retrain to True.'
-			raise e
-	print 'test_accuracy = %2.3f' % (test_accuracy,)
-	model.visualize()
+    print 'begin loading data...'
+    loader = Loader.loader(FLAGS.mincount, FLAGS.maxlen)
+    print 'finished loading data\n'
+    print 'begin building model...'
+    model = Model(
+        loader,
+        embedding_size = FLAGS.embedding_size,
+        batch_size = FLAGS.batch_size,
+        max_epoch = FLAGS.max_epoch,
+        learning_rate = FLAGS.learning_rate,
+        keep_prob = FLAGS.keep_prob
+    )
+    print 'finished building model\n'
+    if FLAGS.retrain:
+        model.train()
+        test_accuracy = model.test()
+    else:
+        try:
+            model.load('save', 'best')
+            test_accuracy = model.test()
+        except tf.errors.NotFoundError:
+            model.train()
+            test_accuracy = model.test()
+        except Exception, e:
+            print 'Error may be caused by changing parameters without retraining. Try setting --retrain to True.'
+            raise e
+    print 'test_accuracy = %2.3f' % (test_accuracy,)
+    model.visualize()
 
 if __name__ == '__main__':
-	tf.app.run()
+    tf.app.run()
 
