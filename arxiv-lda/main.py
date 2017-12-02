@@ -81,3 +81,6 @@ def main():
     model.fit(X)
     np.save('topic_word.np', model.topic_word_)
     np.save('doc_topic.np', model.doc_topic_)
+
+if __name__ == '__main__':
+    main()
