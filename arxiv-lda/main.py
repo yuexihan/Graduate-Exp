@@ -59,14 +59,21 @@ def load_word_index():
 
 
 def main():
+    print 'start getting vocabulary'
     if os.path.exists('../data/index_to_word.json') and os.path.exists('../data/word_to_index.json'):
         index_to_word, word_to_index = load_word_index()
     else:
         init_word_index()
         index_to_word, word_to_index = load_word_index()
+    print 'finish getting vocabulary'
 
+    print 'start getting doc size'
     doc_num = doc_count()
+    print 'finish getting doc size'
+
     word_num = len(index_to_word)
+
+    print 'start generating train data'
     X = sparse.lil_matrix((doc_num, word_num))
     with open('../data/arxiv_word_category_nltk.csv', 'rb') as fin:
         fin.readline()
@@ -77,10 +84,18 @@ def main():
                 w = w.lower()
                 if w in word_to_index:
                     X[i, word_to_index[w]] += 1
+    print 'finish generating train data'
+
+    print 'start training'
     model = lda.LDA(n_topics=100)
     model.fit(X)
+    print 'finish training'
+
+    print 'start saving result'
     np.save('topic_word.np', model.topic_word_)
     np.save('doc_topic.np', model.doc_topic_)
+    print 'finish saving result'
+    
 
 if __name__ == '__main__':
     main()
