@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-fasttext/result.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-lda/main.py" afterPath="$PROJECT_DIR$/arxiv-lda/main.py" />
     </list>
@@ -60,8 +59,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arxiv-lda/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+            <state relative-caret-position="457">
+              <caret line="91" column="51" lean-forward="true" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -262,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512288905904</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lda reduce dim and vocabulary">
+      <created>1512307763632</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512307763632</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +321,8 @@
     <MESSAGE value="add fasttext preprocessing" />
     <MESSAGE value="fix bug" />
     <MESSAGE value="training set and testing set" />
-    <option name="LAST_COMMIT_MESSAGE" value="training set and testing set" />
+    <MESSAGE value="lda reduce dim and vocabulary" />
+    <option name="LAST_COMMIT_MESSAGE" value="lda reduce dim and vocabulary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -696,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-lda/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+        <state relative-caret-position="457">
+          <caret line="91" column="51" lean-forward="true" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="51" />
           <folding />
         </state>
       </provider>

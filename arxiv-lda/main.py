@@ -73,15 +73,23 @@ def main():
 
     print 'start generating train data'
     X = sparse.lil_matrix((doc_num, word_num), dtype=np.int32)
-    with open('../data/arxiv_word_category_nltk.csv', 'rb') as fin:
-        fin.readline()
-        reader = csv.reader(fin)
-        for i, (paper_id, words, category) in enumerate(reader):
-            words = json.loads(words)
+    # with open('../data/arxiv_word_category_nltk.csv', 'rb') as fin:
+    #     fin.readline()
+    #     reader = csv.reader(fin)
+    #     for i, (paper_id, words, category) in enumerate(reader):
+    #         words = json.loads(words)
+    #         for w in words:
+    #             w = w.lower()
+    #             if w in word_to_index:
+    #                 X[i, word_to_index[w]] += 1
+    with open('../data/arxiv_categories_words_fasttext.txt', 'rb') as fin:
+        for line in fin:
+            words = line.split()
             for w in words:
-                w = w.lower()
-                if w in word_to_index:
-                    X[i, word_to_index[w]] += 1
+                if not w.startswith('__label__'):
+                    w = w.lower()
+                    if w in word_to_index:
+                        X[i, word_to_index[w]] += 1
     print 'finish generating train data'
 
     print 'start training'
