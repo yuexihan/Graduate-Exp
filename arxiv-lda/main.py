@@ -39,10 +39,8 @@ def doc_count():
 def init_word_index():
     c = word_count()
     index_to_word = []
-    for k, v in c.iteritems():
-        if v >= 5:
-            # 只index出现5次以上的词语
-            index_to_word.append(k)
+    for k, v in c.most_common(50000):
+        index_to_word.append(k)
     word_to_index = {w: i for i, w in enumerate(index_to_word)}
     with open('../data/index_to_word.json', 'w') as f:
         json.dump(index_to_word, f)
@@ -87,7 +85,7 @@ def main():
     print 'finish generating train data'
 
     print 'start training'
-    model = lda.LDA(n_topics=100)
+    model = lda.LDA(n_topics=50)
     model.fit(X)
     print 'finish training'
 
