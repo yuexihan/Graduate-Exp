@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-fasttext/preprocess.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-train/TFIDF/wordCount.py" afterPath="$PROJECT_DIR$/arxiv-train/TFIDF/wordCount.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-fasttext/preprocess.py" afterPath="$PROJECT_DIR$/arxiv-fasttext/preprocess.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arxiv-fasttext/preprocess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="155">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="e#16#26#0" expanded="true" />
               </folding>
@@ -244,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512269155619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add fasttext preprocessing">
+      <created>1512273395443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512273395443</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -294,7 +300,8 @@
     <MESSAGE value="call main in lda" />
     <MESSAGE value="add log" />
     <MESSAGE value="matrix int" />
-    <option name="LAST_COMMIT_MESSAGE" value="matrix int" />
+    <MESSAGE value="add fasttext preprocessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fasttext preprocessing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -669,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-fasttext/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="155">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#16#26#0" expanded="true" />
           </folding>

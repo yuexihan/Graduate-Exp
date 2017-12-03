@@ -9,7 +9,7 @@ from tqdm import tqdm
 punctuation = re.compile(ur"[\s+=`^!?\\/_.,$%^*()\[\]:;\"\'——！<>{}|，。？、~@#￥%…&（）：；‘’《》“”»〔〕]+")
 ill = re.compile(ur'[\d-]')
 
-f = open('belong_arxiv.json')
+f = open('../data/belong_arxiv.json')
 Belong = json.load(f)
 
 inParentheses = re.compile(r'\(([^)]+)\)')
