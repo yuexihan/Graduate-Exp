@@ -37,4 +37,4 @@ with open('../data/arxiv_categories_words_fasttext.txt', 'wb') as fout:
             words = ' '.join(nltk.word_tokenize(text))
             categories = inParentheses.findall(categories)
             categories = ' '.join(['__label__' + c for c in categories])
-            fout.write(categories + ' ' + words + '\n')
+            fout.write((categories + ' ' + words + '\n').encode('utf-8'))
