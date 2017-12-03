@@ -74,7 +74,7 @@ def main():
     word_num = len(index_to_word)
 
     print 'start generating train data'
-    X = sparse.lil_matrix((doc_num, word_num))
+    X = sparse.lil_matrix((doc_num, word_num), dtype=np.int32)
     with open('../data/arxiv_word_category_nltk.csv', 'rb') as fin:
         fin.readline()
         reader = csv.reader(fin)
@@ -95,7 +95,7 @@ def main():
     np.save('topic_word.np', model.topic_word_)
     np.save('doc_topic.np', model.doc_topic_)
     print 'finish saving result'
-    
+
 
 if __name__ == '__main__':
     main()

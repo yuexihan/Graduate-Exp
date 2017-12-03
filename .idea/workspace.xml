@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-lda/main.py" afterPath="$PROJECT_DIR$/arxiv-lda/main.py" />
     </list>
@@ -30,8 +29,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arxiv-lda/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="97" column="4" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -43,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,6 +125,23 @@
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="arxiv-train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="arxiv-train" type="462c0819:PsiDirectoryNode" />
+              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="arxiv-train" type="462c0819:PsiDirectoryNode" />
+              <item name="pdf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="arxiv_plot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -180,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512217946615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add log">
+      <created>1512218232029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512218232029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -228,7 +251,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="calculate lda vectors" />
     <MESSAGE value="call main in lda" />
-    <option name="LAST_COMMIT_MESSAGE" value="call main in lda" />
+    <MESSAGE value="add log" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -582,15 +606,15 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-lda/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="97" column="4" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
