@@ -83,7 +83,7 @@ def main():
     #             if w in word_to_index:
     #                 X[i, word_to_index[w]] += 1
     with open('../data/arxiv_categories_words_fasttext.txt', 'rb') as fin:
-        for line in fin:
+        for i, line in enumerate(fin):
             words = line.split()
             for w in words:
                 if not w.startswith('__label__'):
