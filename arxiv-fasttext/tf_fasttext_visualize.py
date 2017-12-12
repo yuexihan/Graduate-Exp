@@ -14,6 +14,7 @@ paper_embedding = tf.Variable(paper_embedding, trainable=False, name='paper_embe
 
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
+tf.train.Saver().save(sess, 'save/best')
 
 config = projector.ProjectorConfig()
 
