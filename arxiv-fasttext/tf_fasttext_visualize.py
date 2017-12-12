@@ -3,7 +3,7 @@ import numpy as np
 import os
 from tensorflow.contrib.tensorboard.plugins import projector
 
-paper_embedding = np.array([1216315, 50], dtype=np.float32)
+paper_embedding = np.empty((1216315, 50), dtype=np.float32)
 with open('data/arxiv_fasttext_vector.txt') as f:
     for i, line in enumerate(f):
         for j, x in enumerate(line.split()):

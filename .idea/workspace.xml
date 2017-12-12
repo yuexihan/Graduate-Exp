@@ -41,8 +41,8 @@
       <file leaf-file-name="tf_fasttext_visualize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+            <state relative-caret-position="90">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -330,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513047211155</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix bug">
+      <created>1513047729573</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1513047729573</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -384,9 +391,9 @@
     <MESSAGE value="training set and testing set" />
     <MESSAGE value="lda reduce dim and vocabulary" />
     <MESSAGE value="change training dataset" />
-    <MESSAGE value="fix bug" />
     <MESSAGE value="add fasttext visualize" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fasttext visualize" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -795,8 +802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+        <state relative-caret-position="90">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
