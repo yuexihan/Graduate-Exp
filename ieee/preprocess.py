@@ -6,9 +6,9 @@ import re
 import nltk
 
 paperIdToIndex = {}
-with open('data/ieee_words', 'wb') as f_out_1:
-    with open('data/ieee_category', 'wb') as f_out_2:
-        with open('data/IeeeAfter2014', 'rb') as f_in:
+with open('data/ieee_words.txt', 'wb') as f_out_1:
+    with open('data/ieee_category.txt', 'wb') as f_out_2:
+        with open('data/IeeeAfter2014.csv', 'rb') as f_in:
             reader = csv.reader(f_in)
             reader.next()
             for i, row in enumerate(reader):
@@ -19,9 +19,9 @@ with open('data/ieee_words', 'wb') as f_out_1:
                 f_out_2.write(category + '\n')
                 paperIdToIndex[paperId] = i
 
-with open('data/ieee_reference', 'wb') as f_out:
+with open('data/ieee_reference.csv', 'wb') as f_out:
     writer = csv.writer(f_out)
-    writer.writerow(['citing_index', 'cited_index'])
+    writer.writerow(['citing_index.csv', 'cited_index'])
     with open('data/IeeeAfter2014Reference.csv') as f_in:
         reader = csv.reader(f_in)
         reader.next()
