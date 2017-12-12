@@ -10,7 +10,7 @@ with open('data/IeeeAfter2014.csv', 'wb') as f:
     writer = csv.writer(f)
     writer.writerow(['PaperID', 'Title', 'Abstract', 'Category'])
     for paperId, title, abstract, category in cursor:
-        writer.writerow([paperId, title, abstract, category])
+        writer.writerow([paperId, title.encode('utf-8'), abstract.encode('utf-8'), category])
 
 cursor.execute('select * from IeeeAfter2014Reference')
 with open('data/IeeeAfter2014Reference.csv', 'wb') as f:
