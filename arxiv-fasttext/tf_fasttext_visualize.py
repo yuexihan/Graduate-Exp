@@ -8,9 +8,9 @@ with open('data/arxiv_fasttext_vector.txt') as f:
     for i, line in enumerate(f):
         for j, x in enumerate(line.split()):
             x = float(x)
-            paper_embedding[i, j] = x
+            paper_embedding[i][j] = x
 
-paper_embedding = tf.Variable(paper_embedding, trainable=False, name='paper_embedding')
+paper_embedding = tf.Variable(paper_embedding, trainable=False, name='paper_embedding', dtype=tf.float32)
 
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())

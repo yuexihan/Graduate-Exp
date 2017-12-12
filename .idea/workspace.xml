@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-fasttext/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-fasttext/tsne_fasttext_visualize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-lda/README.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arxiv_plot/k_means.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py" afterPath="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +41,8 @@
       <file leaf-file-name="tf_fasttext_visualize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -138,6 +134,7 @@
         <option value="$PROJECT_DIR$/arxiv-visualize/tsne_fasttext_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-train/arxiv_word_category_nltk.py" />
         <option value="$PROJECT_DIR$/arxiv-visualize/tf_fasttext_visualize.py" />
+        <option value="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py" />
       </list>
     </option>
   </component>
@@ -326,13 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1512309981410</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add fasttext visualize">
+      <created>1513047211155</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1513047211155</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23505655" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23505655" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -380,7 +385,8 @@
     <MESSAGE value="lda reduce dim and vocabulary" />
     <MESSAGE value="change training dataset" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="add fasttext visualize" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fasttext visualize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="104" lean-forward="false" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
