@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-lda/tf_lda_visualize.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arxiv-fasttext/tsne_fasttext_visualize.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-train/TFIDF/arxivVector.py" afterPath="$PROJECT_DIR$/arxiv-train/TFIDF/arxivVector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-train/TFIDF/idf.py" afterPath="$PROJECT_DIR$/arxiv-train/TFIDF/idf.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +40,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_lda_visualize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tf_lda_visualize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arxiv-lda/tf_lda_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="idf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/idf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arxivVector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/arxivVector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding>
+                <element signature="e#16#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_tfidf_visualize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -103,6 +138,9 @@
         <option value="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-lda/main.py" />
         <option value="$PROJECT_DIR$/arxiv-lda/tf_lda_visualize.py" />
+        <option value="$PROJECT_DIR$/arxiv-train/TFIDF/idf.py" />
+        <option value="$PROJECT_DIR$/arxiv-train/TFIDF/arxivVector.py" />
+        <option value="$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py" />
       </list>
     </option>
   </component>
@@ -157,13 +195,13 @@
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="arxiv-train" type="462c0819:PsiDirectoryNode" />
-              <item name="fastText" type="462c0819:PsiDirectoryNode" />
+              <item name="pdf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="arxiv-train" type="462c0819:PsiDirectoryNode" />
-              <item name="pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="TFIDF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
@@ -188,6 +226,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/arxiv-train/TFIDF" />
       <recent name="$PROJECT_DIR$/arxiv-lda" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -343,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513049116534</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix bug">
+      <created>1513054057511</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1513054057511</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -406,30 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arxiv-train/fastText/README.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-train/fastText/fastText.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
@@ -812,6 +834,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/idf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/arxivVector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
