@@ -8,5 +8,9 @@
 checkpoint
 *.swp
 *.np
+*/fastText-0.1.0
+*.zip
+*.npy
+*.pyc
 
 data/*
