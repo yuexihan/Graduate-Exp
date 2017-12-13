@@ -79,7 +79,7 @@ class Model(object):
             self.loss += tf.add_n(losses)
 
         self.train_step = tf.train.AdamOptimizer(self.learning_rate).minimize(self.loss)
-        predictions = tf.cast(tf.greater(logits, 0), tf.int32)
+        predictions = tf.cast(tf.greater(logits, 0.0), tf.int32)
         self.accuracy = tf.reduce_mean(
             tf.cast(tf.equal(predictions, self.labels), tf.float32)
         )
