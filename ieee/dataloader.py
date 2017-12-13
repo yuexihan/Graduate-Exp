@@ -133,7 +133,7 @@ class Data(object):
             lens2.append(paper2['len'])
             labels.append(0)
 
-        return args1, masks1, lens1, args2, masks2, lens2
+        return args1, masks1, lens1, args2, masks2, lens2, labels
 
 
 if __name__ == '__main__':
