@@ -122,22 +122,22 @@ class Model(object):
                 self.labels: labels,
                 self.prob: self.keep_prob
             }
-            if step % 10 == 0:
+            if step % 100 == 0:
                 loss, accuracy = sess.run(
                     [self.loss, self.accuracy],
                     feed_dict=feed_dict
                 )
                 now = time.time()
-                last_time, rate = now, 4 * 10 / (now-last_time)
-                print 'Step %6d: loss = %3.2f, accuracy = %2.3f, docs/step = %8.2f'% (step, loss, accuracy, rate)
+                last_time, rate = now, 8 * 10 / (now-last_time)
+                print 'Step %6d: loss = %3.2f, accuracy = %2.3f, docs/second = %8.2f'% (step, loss, accuracy, rate)
             sess.run(self.train_step, feed_dict=feed_dict)
             step += 1
-            if step * 4 % train_data.n < 4:
+            if step * 8 % train_data.n < 8:
                 if not full_train:
                     val_accuracy = self.test(test_data)
                     print '\n  Epoch %3d: validate_accuracy = %2.3f, best_accuracy = %2.3f\n' \
-                          % (step * 4 // train_data.n, val_accuracy, best_accuracy)
+                          % (step * 8 // train_data.n, val_accuracy, best_accuracy)
                 if full_train:
                     self.save('save', 'best')
-            if step * 4 > self.max_epoch * train_data.n:
+            if step * 8 > self.max_epoch * train_data.n:
                 break

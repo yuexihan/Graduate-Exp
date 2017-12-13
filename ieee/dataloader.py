@@ -96,11 +96,11 @@ class Data(object):
         labels = []
 
         if self.is_train:
-            positive_sample = 4
-            negative_sample = 60
+            positive_sample = 8
+            negative_sample = 120
         else:
-            positive_sample = 32
-            negative_sample = 32
+            positive_sample = 64
+            negative_sample = 64
 
         for _ in xrange(positive_sample):
             if self.i == 0:
