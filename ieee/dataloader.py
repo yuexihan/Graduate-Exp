@@ -68,7 +68,7 @@ class Loader(object):
 
     def get_references(self):
         references = set()
-        with open('data/ieee_reference', 'rb') as f:
+        with open('data/ieee_reference.csv', 'rb') as f:
             reader = csv.reader(f)
             reader.next()
             for citing_index, cited_index in reader:
@@ -134,6 +134,7 @@ class Data(object):
             labels.append(0)
 
         return args1, masks1, lens1, args2, masks2, lens2
+
 
 if __name__ == '__main__':
     loader = Loader(5, 400)
