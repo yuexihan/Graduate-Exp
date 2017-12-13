@@ -128,7 +128,7 @@ class Model(object):
                     feed_dict=feed_dict
                 )
                 now = time.time()
-                last_time, rate = now, 8 * 10 / (now-last_time)
+                last_time, rate = now, 8 * 100 / (now-last_time)
                 print 'Step %6d: loss = %3.2f, accuracy = %2.3f, docs/second = %8.2f'% (step, loss, accuracy, rate)
             sess.run(self.train_step, feed_dict=feed_dict)
             step += 1

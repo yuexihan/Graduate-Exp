@@ -27,7 +27,7 @@ def main(_):
         keep_prob = FLAGS.keep_prob
     )
     print 'finished building model\n'
-    model.train()
+    model.train(full_train=True)
 
 
 if __name__ == '__main__':
