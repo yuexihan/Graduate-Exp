@@ -141,3 +141,23 @@ class Model(object):
                     self.save('save', 'best')
             if step * 8 > self.max_epoch * train_data.n:
                 break
+
+    def save_doc_vector(self):
+        self.load('save', 'best')
+        represents = self.represent(self.args1, self.masks1, self.lens1)
+        sess = self.sess
+        with open('data/ieee_vectors.txt', 'wb') as f:
+            for paper in self.dataloader.papers:
+                args = [paper['arg']]
+                masks = [paper['mask']]
+                lens = [paper['len']]
+                feed_dict = {
+                    self.args1: args,
+                    self.masks1: masks,
+                    self.lens1: lens,
+                    self.prob: 1.
+                }
+                results = sess.run(represents, feed_dict=feed_dict)
+                result = results[0]
+                result = [str(x) for x in result]
+                f.write(' '.join(result) + '\n')
