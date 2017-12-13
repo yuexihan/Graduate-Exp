@@ -138,7 +138,7 @@ class Data(object):
 
 if __name__ == '__main__':
     loader = Loader(5, 400)
-    print len(loader.vocabulary)
     print loader.train.next_batch()
     print loader.test.next_batch()
     print loader.train.n, loader.test.n
+    print len(loader.vocabulary)
