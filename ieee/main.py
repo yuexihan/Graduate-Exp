@@ -4,7 +4,7 @@ from dataloader import Loader
 
 flags = tf.app.flags
 flags.DEFINE_integer('embedding_size', 50, 'The dimension of word vector.')
-flags.DEFINE_integer('max_epoch', 50, 'The epoch times of total training.')
+flags.DEFINE_integer('max_epoch', 5, 'The epoch times of total training.')
 flags.DEFINE_float('keep_prob', 0.5, 'The probability of keeping in dropout.')
 flags.DEFINE_float('learning_rate', 1e-2, 'The initial learning rate.')
 flags.DEFINE_integer('mincount', 5, 'Words whose appearing times less than this valve will be treated as unknown words.')
