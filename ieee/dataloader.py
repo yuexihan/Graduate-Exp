@@ -72,7 +72,7 @@ class Loader(object):
             reader = csv.reader(f)
             reader.next()
             for citing_index, cited_index in reader:
-                references.add((citing_index, cited_index))
+                references.add((int(citing_index), int(cited_index)))
         return references
 
 
