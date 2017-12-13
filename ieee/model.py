@@ -161,3 +161,5 @@ class Model(object):
                 result = results[0]
                 result = [str(x) for x in result]
                 f.write(' '.join(result) + '\n')
+
+    # def many_test(self):
