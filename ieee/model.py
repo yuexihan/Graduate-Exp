@@ -17,8 +17,7 @@ class Model(object):
     def __init__(self, dataloader, embedding_size, max_epoch, learning_rate, keep_prob):
         self.dataloader = dataloader
 
-        self.vocabulary_size = self.dataloader.vocabulary_size
-        self.category_size = self.dataloader.category_size
+        self.vocabulary_size = len(self.dataloader.vocabulary)
 
         self.embedding_size = embedding_size
         self.max_epoch = max_epoch
