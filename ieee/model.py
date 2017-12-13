@@ -162,4 +162,7 @@ class Model(object):
                 result = [str(x) for x in result]
                 f.write(' '.join(result) + '\n')
 
-    # def many_test(self):
+    def many_test(self):
+        for i in xrange(10):
+            val_accuracy = self.test()
+            print val_accuracy
