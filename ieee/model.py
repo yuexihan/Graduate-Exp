@@ -163,7 +163,7 @@ class Model(object):
                 f.write(' '.join(result) + '\n')
 
     def many_test(self):
-        self.sess.run(tf.global_variables_initializer())
+        self.load('save', 'best')
         for i in xrange(10):
             val_accuracy = self.test()
             print val_accuracy
