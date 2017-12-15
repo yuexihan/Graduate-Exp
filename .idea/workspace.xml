@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="add Paragraph Vectors">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/diagnostics/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/models/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/codecov.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/export_vectors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/loss.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/setup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/tests/test_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/tests/test_loss.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/tests/test_models.py" />
+    <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/paragraph-vectors/preprocess.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +109,8 @@
       <find>labels</find>
       <find>IEEetomag</find>
       <find>lda</find>
+      <find>ieee_words</find>
+      <find>__label__</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,6 +162,8 @@
         <option value="$PROJECT_DIR$/ieee2010/main.py" />
         <option value="$PROJECT_DIR$/ieee2010/model.py" />
         <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/data.py" />
+        <option value="$PROJECT_DIR$/paragraph-vectors/preprocess.py" />
+        <option value="$PROJECT_DIR$/ieee/_preprocess.py" />
       </list>
     </option>
   </component>
@@ -637,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513343399898</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add Paragraph Vectors">
+      <created>1513344582809</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1513344582809</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -724,14 +719,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="284" column="8" lean-forward="false" selection-start-line="284" selection-start-column="8" selection-end-line="284" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-fasttext/readme.txt" />
     <entry file="file://$PROJECT_DIR$/arxiv-train/fastText/fastText.py" />
     <entry file="file://$PROJECT_DIR$/arxiv-train/fastText_h10/fastText.py">
@@ -894,16 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee/_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-fasttext/result.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -946,22 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1306">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -986,9 +947,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="95" column="15" lean-forward="false" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="15" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,6 +1036,40 @@
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="56" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee/_preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paragraph-vectors/preprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
