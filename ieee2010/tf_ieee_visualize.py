@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.contrib.tensorboard.plugins import projector
 
-paper_embedding = np.empty((287324, 50), dtype=np.float32)
+paper_embedding = np.empty((1072213, 50), dtype=np.float32)
 with open('data/ieee_vectors.txt') as f:
     for i, line in enumerate(f):
         for j, x in enumerate(line.split()):
