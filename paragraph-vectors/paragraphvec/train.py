@@ -1,4 +1,4 @@
-from __future__ import print_function
+from __future__ import print_function, division
 import time
 from sys import float_info, stdout
 
