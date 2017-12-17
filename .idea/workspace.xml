@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/README.md" afterPath="$PROJECT_DIR$/ieee2010/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py" afterPath="$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py" />
     </list>
@@ -62,24 +61,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-529">
-              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,8 +185,8 @@
         <option value="$PROJECT_DIR$/ieee2010/main.py" />
         <option value="$PROJECT_DIR$/ieee2010/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/ieee2010/README.md" />
-        <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py" />
         <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py" />
+        <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py" />
       </list>
     </option>
   </component>
@@ -314,13 +311,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add log">
-      <created>1512218232029</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1512218232029</updated>
     </task>
     <task id="LOCAL-00004" summary="matrix int">
       <created>1512269155619</created>
@@ -658,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513345314000</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="python3">
+      <created>1513480470331</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1513480470332</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -714,7 +711,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calculate lda vectors" />
     <MESSAGE value="call main in lda" />
     <MESSAGE value="add log" />
     <MESSAGE value="matrix int" />
@@ -739,7 +735,8 @@
     <MESSAGE value="2010 save vector" />
     <MESSAGE value="add Paragraph Vectors" />
     <MESSAGE value="preprocess Paragraph Vectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="preprocess Paragraph Vectors" />
+    <MESSAGE value="python3" />
+    <option name="LAST_COMMIT_MESSAGE" value="python3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1109,21 +1106,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py">
+    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py">
+    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

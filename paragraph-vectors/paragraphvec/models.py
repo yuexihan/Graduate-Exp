@@ -1,6 +1,6 @@
+from __future__ import division
 import torch
 import torch.nn as nn
-from __future__ import division
 
 
 class DM(nn.Module):

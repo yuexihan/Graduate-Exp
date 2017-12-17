@@ -1,6 +1,6 @@
+from __future__ import print_function
 import time
 from sys import float_info, stdout
-from __future__ import print_function
 
 import fire
 import torch
