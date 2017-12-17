@@ -207,7 +207,7 @@ def _run(data_file_name,
 
 
 def _print_progress(epoch_i, batch_i, num_batches):
-    progress = round((batch_i + 1) / num_batches * 100)
+    progress = int(round((batch_i + 1) / num_batches * 100))
     print("\rEpoch {:d}".format(epoch_i + 1), end='')
     stdout.write(" - {:d}%".format(progress))
     stdout.flush()
