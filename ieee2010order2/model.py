@@ -70,7 +70,7 @@ class Model(object):
 
         self.loss = tf.reduce_mean(
             tf.nn.weighted_cross_entropy_with_logits(
-                targets=tf.cast(self.labels, dtype=tf.float32), logits=logits, pos_weight=15
+                targets=tf.cast(self.labels, dtype=tf.float32), logits=logits, pos_weight=1
             )
         )
 

@@ -115,8 +115,8 @@ class Data(object):
         labels = []
 
         if self.is_train:
-            positive_sample = 8
-            negative_sample = 120
+            positive_sample = 64
+            negative_sample = 64
         else:
             positive_sample = 64
             negative_sample = 64
