@@ -11,7 +11,7 @@
 import logging
 import sys
 import os
-from word2vec import Sent2Vec, LineSentence
+from word2vec import Word2Vec, Sent2Vec, LineSentence
 
 logging.basicConfig(format='%(asctime)s : %(threadName)s : %(levelname)s : %(message)s', level=logging.INFO)
 logging.info("running %s" % " ".join(sys.argv))
