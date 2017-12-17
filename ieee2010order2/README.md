@@ -1,0 +1,29 @@
+'Computer Science': 135464,
+'Physics': 69675,
+'Mathematics': 38984,
+'Engineering': 22398,
+'Economics': 5601,
+'Chemistry': 4424,
+'Medicine': 2980,
+'Biology': 2946,
+'Psychology': 1503,
+'Sociology': 1417,
+'Geology': 688,
+'Materials Science': 578,
+'Art': 244,
+'Geography': 187,
+'Philosophy': 182,
+'History': 45,
+'Business': 8
+
+
+0.75
+0.734375
+0.742188
+0.734375
+0.742188
+0.789062
+0.796875
+0.828125
+0.773438
+0.773438
