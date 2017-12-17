@@ -63,8 +63,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="209" column="60" lean-forward="false" selection-start-line="209" selection-start-column="60" selection-end-line="209" selection-end-column="60" />
+            <state relative-caret-position="415">
+              <caret line="204" column="69" lean-forward="false" selection-start-line="204" selection-start-column="69" selection-end-line="204" selection-end-column="69" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -340,13 +340,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add fasttext preprocessing">
-      <created>1512273395443</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1512273395443</updated>
     </task>
     <task id="LOCAL-00006" summary="fix bug">
       <created>1512273534150</created>
@@ -684,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513480518333</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="fix bug">
+      <created>1513481141194</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1513481141194</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -759,13 +759,13 @@
     <MESSAGE value="2010" />
     <MESSAGE value="add test many" />
     <MESSAGE value="main train" />
-    <MESSAGE value="fix bug" />
     <MESSAGE value="add lda" />
     <MESSAGE value="2010 save vector" />
     <MESSAGE value="add Paragraph Vectors" />
     <MESSAGE value="preprocess Paragraph Vectors" />
     <MESSAGE value="python3" />
-    <option name="LAST_COMMIT_MESSAGE" value="python3" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1161,8 +1161,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="209" column="60" lean-forward="false" selection-start-line="209" selection-start-column="60" selection-end-line="209" selection-end-column="60" />
+        <state relative-caret-position="415">
+          <caret line="204" column="69" lean-forward="false" selection-start-line="204" selection-start-column="69" selection-end-line="204" selection-end-column="69" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

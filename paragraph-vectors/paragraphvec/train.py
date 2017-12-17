@@ -202,7 +202,7 @@ def _run(data_file_name,
             prev_model_file_path,
             model_ver_is_dbow)
 
-        epoch_total_time = round(time.time() - epoch_start_time)
+        epoch_total_time = int(round(time.time() - epoch_start_time))
         print(" ({:d}s) - loss: {:.4f}".format(epoch_total_time, loss))
 
 
