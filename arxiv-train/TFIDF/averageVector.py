@@ -10,11 +10,12 @@ with open('arxivVectorAvg.txt', 'wb') as fout:
         for row in fin:
             words = row.split()
             vector = [0.0] * 300
-            total = 0.0
+            total = 0
             for word in words:
                 if word in pretrained:
                     total += 1
                     vector = [x + y for (x, y) in zip(vector, pretrained[word])]
-            vector = [x / total for x in vector]
+            if total > 0:
+                vector = [x / total for x in vector]
             vector = [str(x) for x in vector]
             fout.write(' '.join(vector) + '\n')
