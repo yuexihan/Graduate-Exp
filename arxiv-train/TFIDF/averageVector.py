@@ -17,4 +17,4 @@ with open('arxivVectorAvg.txt', 'wb') as fout:
                     vector = [x + y for (x, y) in zip(vector, pretrained[word])]
             vector = [x / total for x in vector]
             vector = [str(x) for x in vector]
-            fout.write(' '.join(vector))
+            fout.write(' '.join(vector) + '\n')
