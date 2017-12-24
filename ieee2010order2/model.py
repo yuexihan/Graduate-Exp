@@ -128,18 +128,18 @@ class Model(object):
                     feed_dict=feed_dict
                 )
                 now = time.time()
-                last_time, rate = now, 8 * 100 / (now-last_time)
+                last_time, rate = now, 64 * 100 / (now-last_time)
                 print 'Step %6d: loss = %3.2f, accuracy = %2.3f, docs/second = %8.2f'% (step, loss, accuracy, rate)
             sess.run(self.train_step, feed_dict=feed_dict)
             step += 1
-            if step * 8 % train_data.n < 8:
+            if step * 64 % train_data.n < 64:
                 if not full_train:
                     val_accuracy = self.test(test_data)
                     print '\n  Epoch %3d: validate_accuracy = %2.3f, best_accuracy = %2.3f\n' \
-                          % (step * 8 // train_data.n, val_accuracy, best_accuracy)
+                          % (step * 64 // train_data.n, val_accuracy, best_accuracy)
                 if full_train:
                     self.save('save', 'best')
-            if step * 8 > self.max_epoch * train_data.n:
+            if step * 64 > self.max_epoch * train_data.n:
                 break
 
     def save_doc_vector(self):
