@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" afterPath="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" afterPath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="605">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -50,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -58,6 +58,16 @@
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ieee/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,9 +174,9 @@
         <option value="$PROJECT_DIR$/ieee2010/tfidf/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/tfidfVector.py" />
         <option value="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" />
-        <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
         <option value="$PROJECT_DIR$/ieee/nbody.py" />
         <option value="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" />
+        <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
       </list>
     </option>
   </component>
@@ -343,13 +353,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00051" summary="preprocess Paragraph Vectors">
-      <created>1513345314000</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1513345314000</updated>
     </task>
     <task id="LOCAL-00052" summary="python3">
       <created>1513480470331</created>
@@ -687,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514207778577</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="fix bug">
+      <created>1514207835024</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1514207835024</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1153,14 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1189,16 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee/nbody.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1213,6 +1205,24 @@
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

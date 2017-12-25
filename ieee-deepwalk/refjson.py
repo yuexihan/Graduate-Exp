@@ -30,7 +30,7 @@ print len(category)
 
 nodes = set()
 links = set()
-for line in open('edges.txt'):
+for line in open('edges_2010.txt'):
     a, b = line.split()
     a = int(a)
     b = int(b)
@@ -46,5 +46,5 @@ for a,b in links:
     l = {'id': a, 'refs': [(b, 1)], 'allcats': ''}
     j.append(l)
 
-with open('edges.json', 'w') as f:
+with open('edges_2010.json', 'w') as f:
     json.dump(j, f)
