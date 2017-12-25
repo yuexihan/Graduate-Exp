@@ -11,7 +11,7 @@ print len(category)
 
 nodes = set()
 d = defaultdict(set)
-for line in 'edges.txt':
+for line in open('edges.txt'):
     a, b = line.split()
     a = int(a)
     b = int(b)
