@@ -27,7 +27,7 @@ config = projector.ProjectorConfig()
 
 paper_projector = config.embeddings.add()
 paper_projector.tensor_name = paper_embedding.name
-paper_projector.metadata_path = 'ieee_category.txt'
+paper_projector.metadata_path = 'ieee_label.txt'
 
 summary_writer = tf.summary.FileWriter('save')
 projector.visualize_embeddings(summary_writer, config)
