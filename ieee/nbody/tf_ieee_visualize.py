@@ -12,7 +12,7 @@ for line in open('ieee_category.txt'):
 l = json.load(open('map-140954.json'))
 
 with open('ieee_label.txt', 'w') as f:
-    for i, (j, x, y) in enumerate(l):
+    for i, (j, x, y, r) in enumerate(l):
         paper_embedding[i][0] = x
         paper_embedding[i][1] = y
         f.write(categories[j])
