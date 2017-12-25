@@ -39,7 +39,7 @@ with open('arxivVectorTFIDF.txt', 'wb') as fout:
             total = 0
             for word in words:
                 if word in pretrained:
-                    total += 1
+                    total += wordIDF[word]
                     vector = [x + wordIDF[word] * y for (x, y) in zip(vector, pretrained[word])]
             if total > 0:
                 vector = [x / total for x in vector]
