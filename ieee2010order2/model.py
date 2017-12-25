@@ -132,7 +132,8 @@ class Model(object):
                 print 'Step %6d: loss = %3.2f, accuracy = %2.3f, docs/second = %8.2f'% (step, loss, accuracy, rate)
             sess.run(self.train_step, feed_dict=feed_dict)
             step += 1
-            if step * 64 % train_data.n < 64:
+            if step % 1000000 == 0:
+                print step * 64, train_data.n, step * 64 % train_data.n
                 if not full_train:
                     val_accuracy = self.test(test_data)
                     print '\n  Epoch %3d: validate_accuracy = %2.3f, best_accuracy = %2.3f\n' \
