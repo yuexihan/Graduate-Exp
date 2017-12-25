@@ -23,7 +23,7 @@ print 'pretrained size: %s' % len(pretrained)
 
 with open('arxivVectorAvg.txt', 'wb') as fout:
     with open('arxiv_words.txt', 'rb') as fin:
-        for line in f:
+        for line in fin:
             words = line.split()
             vector = [0.0] * 300
             total = 0
