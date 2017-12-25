@@ -1,10 +1,8 @@
 from collections import defaultdict
 import json
 
-g = open('ieee_category.txt')
-
 category = []
-for line in g:
+for line in open('ieee_category.txt'):
         category.append(line.strip())
 
 print len(category)
