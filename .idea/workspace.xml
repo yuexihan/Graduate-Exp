@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py" afterPath="$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,17 +60,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_tfidf_visualize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tf_tfidf_visualize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -215,8 +215,8 @@
         <option value="$PROJECT_DIR$/ieee/nbody.py" />
         <option value="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
-        <option value="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" />
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/tf_tfidf_visualize.py" />
+        <option value="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" />
       </list>
     </option>
   </component>
@@ -399,13 +399,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00054" summary="fix bug">
-      <created>1513481141194</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1513481141194</updated>
     </task>
     <task id="LOCAL-00055" summary="fix bug">
       <created>1513481212723</created>
@@ -743,7 +736,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514208677854</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="fix bug">
+      <created>1514209622329</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1514209622329</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1245,14 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/tf_average_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1265,6 +1257,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
       </provider>
