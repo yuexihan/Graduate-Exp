@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" afterPath="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,13 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
               <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arxiv-train/TFIDF/wordCount.py" />
         <option value="$PROJECT_DIR$/arxiv-fasttext/preprocess.py" />
         <option value="$PROJECT_DIR$/arxiv-fasttext/validate.py" />
         <option value="$PROJECT_DIR$/arxiv-fasttext/result.md" />
@@ -143,6 +155,7 @@
         <option value="$PROJECT_DIR$/ieee2010/tfidf/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/tfidfVector.py" />
         <option value="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" />
+        <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
       </list>
     </option>
   </component>
@@ -208,6 +221,11 @@
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="ieee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee-deepwalk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
@@ -308,13 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00040" summary="fix bug">
-      <created>1513154089596</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1513154089596</updated>
     </task>
     <task id="LOCAL-00041" summary="2010">
       <created>1513184646805</created>
@@ -652,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514191451707</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="fix bug">
+      <created>1514191470510</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1514191470510</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -740,16 +758,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ieee/_preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paragraph-vectors/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1178,6 +1186,16 @@
           <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
