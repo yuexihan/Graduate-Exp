@@ -3,29 +3,24 @@ import csv
 import json
 import re
 import math
+from collections import defaultdict
 
 DATA_FOLDER = '/home/xyue1/code/Graduate-Exp/ieee2010/data/'
 GOOGLE_FOLDER = '/home/xyue1/code/Graduate-Exp/arxiv-train/'
 
-vocabulary = set(json.load(open(DATA_FOLDER + 'vocabulary.json')).keys())
-print 'vocabulary size: %s' % len(vocabulary)
-
-wordIDF = {}
-for word in vocabulary:
-    wordIDF[word] = 0
-
+wordIDF = defaultdict(int)
 totalDF = 0
 with open(DATA_FOLDER + 'ieee_words.txt', 'rb') as fin:
     for line in fin:
         totalDF += 1
         words = line.split()
-        for w in words:
+        for w in set(words):
             w = w.lower()
-            if w in wordIDF:
-                wordIDF[w] += 1
+            wordIDF[w] += 1
 
 for word in wordIDF:
     wordIDF[word] = math.log(totalDF * 1.0 / wordIDF[word])
+print 'wordIDF size: %s' % len(wordIDF)
 
 pretrained = {}
 splitChar = re.compile(r'\s+')
@@ -35,7 +30,7 @@ with open(GOOGLE_FOLDER + 'GoogleNews-vectors-negative300.txt', 'rb') as f:
         splitWord = splitChar.split(line.strip())
         word = splitWord[0]
         vector = splitWord[1:]
-        if word in vocabulary:
+        if word in wordIDF:
             pretrained[word] = [float(x) for x in vector]
 print 'pretrained size: %s' % len(pretrained)
 
