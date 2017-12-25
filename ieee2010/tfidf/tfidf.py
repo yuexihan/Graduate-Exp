@@ -22,7 +22,7 @@ with open(DATA_FOLDER + 'ieee_words.txt', 'rb') as fin:
         for w in words:
             w = w.lower()
             if w in wordIDF:
-                wordIDF[word] += 1
+                wordIDF[w] += 1
 
 for word in wordIDF:
     wordIDF[word] = math.log(totalDF * 1.0 / wordIDF[word])
