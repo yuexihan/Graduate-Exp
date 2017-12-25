@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee/nbody/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" afterPath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,13 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="492">
               <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,8 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arxiv-fasttext/preprocess.py" />
-        <option value="$PROJECT_DIR$/arxiv-fasttext/validate.py" />
         <option value="$PROJECT_DIR$/arxiv-fasttext/result.md" />
         <option value="$PROJECT_DIR$/arxiv-lda/README.md" />
         <option value="$PROJECT_DIR$/arxiv-visualize/tsne_fasttext_visualize.py" />
@@ -155,6 +166,8 @@
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/tfidfVector.py" />
         <option value="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
+        <option value="$PROJECT_DIR$/ieee/nbody.py" />
+        <option value="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" />
       </list>
     </option>
   </component>
@@ -220,6 +233,12 @@
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="ieee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee" type="462c0819:PsiDirectoryNode" />
+              <item name="nbody" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
@@ -293,11 +312,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ieee/nbody" />
       <recent name="$PROJECT_DIR$/ieee2010/average" />
       <recent name="$PROJECT_DIR$/ieee2010/tfidf" />
       <recent name="$PROJECT_DIR$/ieee2010" />
       <recent name="$PROJECT_DIR$/arxiv-train/TFIDF" />
-      <recent name="$PROJECT_DIR$/arxiv-lda" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/arxiv-fasttext" />
@@ -325,13 +344,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00048" summary="2010 save vector">
-      <created>1513343399898</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1513343399898</updated>
     </task>
     <task id="LOCAL-00049" summary="add Paragraph Vectors">
       <created>1513344582809</created>
@@ -669,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514198416636</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="fix bug">
+      <created>1514198458843</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1514198458843</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -757,24 +776,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paragraph-vectors/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/tf_ieee_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1195,6 +1196,24 @@
           <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee/nbody.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
