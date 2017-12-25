@@ -2,8 +2,11 @@
 
 import re
 
+DATA_FOLDER = '/home/xyue1/code/Graduate-Exp/ieee2010/data/'
+GOOGLE_FOLDER = '/home/xyue1/code/Graduate-Exp/arxiv-train/'
+
 vocabulary = set()
-with open('ieee_words.txt', 'rb') as f:
+with open(DATA_FOLDER + 'ieee_words.txt', 'rb') as f:
     for line in f:
         words = line.split()
         vocabulary.update(words)
@@ -11,7 +14,7 @@ print 'vocabulary size: %s' % len(vocabulary)
 
 pretrained = {}
 splitChar = re.compile(r'\s+')
-with open('../GoogleNews-vectors-negative300.txt', 'rb') as f:
+with open(GOOGLE_FOLDER + 'GoogleNews-vectors-negative300.txt', 'rb') as f:
     f.readline()
     for line in f:
         splitWord = splitChar.split(line.strip())
@@ -22,7 +25,7 @@ with open('../GoogleNews-vectors-negative300.txt', 'rb') as f:
 print 'pretrained size: %s' % len(pretrained)
 
 with open('ieeeVectorAvg.txt', 'wb') as fout:
-    with open('ieee_words.txt', 'rb') as fin:
+    with open(DATA_FOLDER + 'ieee_words.txt', 'rb') as fin:
         for line in fin:
             words = line.split()
             vector = [0.0] * 300
