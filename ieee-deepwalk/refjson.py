@@ -42,7 +42,7 @@ j = []
 for a in nodes:
     l = {'id': a}
     j.append(l)
-for a,b in nodes:
+for a,b in links:
     l = {'id': a, 'ref': [(b, 1)]}
     j.append(l)
 
