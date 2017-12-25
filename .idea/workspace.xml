@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/tfidf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/average/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/average/average.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py" afterPath="$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="averageVector.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,14 +45,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="49">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="average.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee2010/average/average.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +125,6 @@
       <find>ieee_words</find>
       <find>__label__</find>
       <find>torchtext.data</find>
-      <find>matplotlib.pyplot</find>
       <find>fire</find>
       <find>print</find>
       <find>load_dataset</find>
@@ -129,9 +137,12 @@
       <find>generate_plot</find>
       <find>8</find>
       <find>64</find>
+      <find>matplotlib.pyplot</find>
+      <find>arxiv</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>ieee</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -140,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arxiv-train/cnn_h10/cnn.py" />
         <option value="$PROJECT_DIR$/arxiv-train/cnn/cnn.py" />
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/statistic.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -191,6 +201,7 @@
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/pretrained.py" />
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py" />
         <option value="$PROJECT_DIR$/ieee2010/tfidf/tfidf.py" />
+        <option value="$PROJECT_DIR$/ieee2010/average/average.py" />
       </list>
     </option>
   </component>
@@ -261,6 +272,12 @@
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
+              <item name="average" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
@@ -341,13 +358,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00027" summary="fix bug">
-      <created>1513137087482</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1513137087482</updated>
     </task>
     <task id="LOCAL-00028" summary="fix bug">
       <created>1513137176389</created>
@@ -685,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514169532156</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="fix bug">
+      <created>1514170565525</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1514170565526</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -773,14 +790,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arxiv-fasttext/result.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee/tf_ieee_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1197,14 +1206,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/arxivVector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1213,13 +1214,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/averageVector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="49">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/average/average.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
