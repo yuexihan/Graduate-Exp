@@ -40,10 +40,10 @@ for line in open('edges.txt'):
 
 j = []
 for a in nodes:
-    l = {'id': a, 'allcats': '', 'ref': []}
+    l = {'id': a, 'allcats': '', 'refs': []}
     j.append(l)
 for a,b in links:
-    l = {'id': a, 'ref': [(b, 1)], 'allcats': ''}
+    l = {'id': a, 'refs': [(b, 1)], 'allcats': ''}
     j.append(l)
 
 with open('edges.json', 'w') as f:
