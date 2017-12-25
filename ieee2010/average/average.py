@@ -9,7 +9,8 @@ vocabulary = set()
 with open(DATA_FOLDER + 'ieee_words.txt', 'rb') as f:
     for line in f:
         words = line.split()
-        vocabulary.update(words)
+        for w in words:
+            vocabulary.add(w.lower())
 print 'vocabulary size: %s' % len(vocabulary)
 
 pretrained = {}
@@ -31,6 +32,7 @@ with open('ieeeVectorAvg.txt', 'wb') as fout:
             vector = [0.0] * 300
             total = 0
             for word in words:
+                word = word.lower()
                 if word in pretrained:
                     total += 1
                     vector = [x + y for (x, y) in zip(vector, pretrained[word])]
