@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/matutils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/tf_sen2vec_visualize.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/voidptr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/word2vec.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/word2vec_inner.pyx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" afterPath="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,14 +46,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="refjson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="640">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,7 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arxiv-fasttext/result.md" />
         <option value="$PROJECT_DIR$/arxiv-lda/README.md" />
         <option value="$PROJECT_DIR$/arxiv-visualize/tsne_fasttext_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-train/arxiv_word_category_nltk.py" />
@@ -177,6 +204,7 @@
         <option value="$PROJECT_DIR$/ieee/nbody.py" />
         <option value="$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
+        <option value="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" />
       </list>
     </option>
   </component>
@@ -257,6 +285,12 @@
             <path>
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee-deepwalk" type="462c0819:PsiDirectoryNode" />
+              <item name="sentence2vec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,11 +355,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ieee-deepwalk" />
       <recent name="$PROJECT_DIR$/ieee/nbody" />
       <recent name="$PROJECT_DIR$/ieee2010/average" />
       <recent name="$PROJECT_DIR$/ieee2010/tfidf" />
       <recent name="$PROJECT_DIR$/ieee2010" />
-      <recent name="$PROJECT_DIR$/arxiv-train/TFIDF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/arxiv-fasttext" />
@@ -353,13 +387,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00052" summary="python3">
-      <created>1513480470331</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1513480470332</updated>
     </task>
     <task id="LOCAL-00053" summary="python3">
       <created>1513480518333</created>
@@ -697,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514207835024</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="fix bug">
+      <created>1514208399942</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1514208399942</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -785,26 +819,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ieee2010/tf_ieee_visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1219,11 +1233,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ieee-deepwalk/refjson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="640">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
