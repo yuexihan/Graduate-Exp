@@ -7,19 +7,11 @@ from tensorflow.contrib.tensorboard.plugins import projector
 
 paper_embedding = np.empty((1216315, 300), dtype=np.float32)
 
-if not os.path.exists('save'):
-    os.makedirs('save')
-
-with open('save/label.txt', 'w') as fout:
-    with open('data/arxivVector.txt', 'rb') as fin:
-        reader = csv.reader(fin)
-        reader.next()
-        for i, row in enumerate(reader):
-            (paperid, vector, categories) = row
-            vector = json.loads(vector)
-            categories = json.loads(categories)
-            paper_embedding[i] = vector
-            fout.write(categories[0] + '\n')
+with open('arxivVectorTFIDF.txt', 'rb') as fin:
+    for i, line in enumerate(fin):
+        for j, x in enumerate(line.split()):
+            x = float(x)
+            paper_embedding[i, j] = x
 
 paper_embedding = tf.Variable(paper_embedding, trainable=False, name='paper_embedding', dtype=tf.float32)
 
