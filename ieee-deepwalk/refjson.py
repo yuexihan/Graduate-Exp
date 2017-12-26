@@ -18,7 +18,7 @@ for line in open('edges.txt'):
     nodes.add(b)
 
 j = []
-for a in nodes:
+for a in d:
     l = {}
     l['id'] = a
     l['allcats'] = category[a]
