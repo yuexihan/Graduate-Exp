@@ -3,7 +3,7 @@
 import re
 
 vocabulary = set()
-with open('ieee_words.txt', 'rb') as f:
+with open('arxiv_words.txt', 'rb') as f:
     for line in f:
         words = line.split()
         for w in words:
@@ -21,8 +21,8 @@ with open('words.vec', 'rb') as f:
         pretrained[word] = [float(x) for x in vector]
 print 'pretrained size: %s' % len(pretrained)
 
-with open('ieeeVectorAvg.txt', 'wb') as fout:
-    with open('ieee_words.txt', 'rb') as fin:
+with open('arxivVectorAvg.txt', 'wb') as fout:
+    with open('arxiv_words.txt', 'rb') as fin:
         for line in fin:
             words = line.split()
             vector = [0.0] * 100

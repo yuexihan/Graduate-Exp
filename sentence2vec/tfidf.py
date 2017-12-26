@@ -7,7 +7,7 @@ from collections import defaultdict
 
 wordIDF = defaultdict(int)
 totalDF = 0
-with open('ieee_words.txt', 'rb') as fin:
+with open('arxiv_words.txt', 'rb') as fin:
     for line in fin:
         totalDF += 1
         words = line.split()
@@ -31,8 +31,8 @@ with open('words.vec', 'rb') as f:
             pretrained[word] = [float(x) for x in vector]
 print 'pretrained size: %s' % len(pretrained)
 
-with open('ieeeVectorTFIDF.txt', 'wb') as fout:
-    with open('ieee_words.txt', 'rb') as fin:
+with open('arxivVectorTFIDF.txt', 'wb') as fout:
+    with open('arxiv_words.txt', 'rb') as fin:
         for line in fin:
             words = line.split()
             vector = [0.0] * 100
