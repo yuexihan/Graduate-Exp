@@ -19,7 +19,7 @@ logging.info("running %s" % " ".join(sys.argv))
 input_file = 'arxiv_words.txt'
 model = Word2Vec(LineSentence(input_file), size=100, window=5, sg=0, min_count=5, workers=8)
 model.save(input_file + '.model')
-model.save_word2vec_format(input_file + '.vec')
+model.save_word2vec_format('words' + '.vec')
 
 sent_file = 'arxiv_words.txt'
 model = Sent2Vec(LineSentence(sent_file), model_file=input_file + '.model')
