@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/tf_ieee_s2v_visualize.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ieee2010/sentence2vec/tf_sen2vec_visualize.py" afterPath="$PROJECT_DIR$/ieee-deepwalk/tf_ieee_2014_dw_visualize.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,33 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ieee2010/tf_ieee_visualize.py">
+      <file leaf-file-name="tf_ieee_2014_dw_visualize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee-deepwalk/tf_ieee_2014_dw_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tf_ieee_s2v_visualize.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tf_ieee_s2v_visualize.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="405">
+              <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_sen2vec_visualize.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentence2vec/tf_sen2vec_visualize.py">
+      <file leaf-file-name="tf_ieee_s2v_visualize.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tf_ieee_s2v_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -100,9 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arxiv-visualize/tsne_fasttext_visualize.py" />
-        <option value="$PROJECT_DIR$/arxiv-train/arxiv_word_category_nltk.py" />
-        <option value="$PROJECT_DIR$/arxiv-visualize/tf_fasttext_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_visualize.py" />
         <option value="$PROJECT_DIR$/arxiv-lda/main.py" />
         <option value="$PROJECT_DIR$/arxiv-lda/tf_lda_visualize.py" />
@@ -151,6 +136,9 @@
         <option value="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/main.py" />
         <option value="$PROJECT_DIR$/sentence2vec/main.py" />
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tf_ieee_s2v_visualize.py" />
+        <option value="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
+        <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
+        <option value="$PROJECT_DIR$/ieee-deepwalk/tf_ieee_2014_dw_visualize.py" />
       </list>
     </option>
   </component>
@@ -301,8 +289,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ieee2010/sentence2vec" />
       <recent name="$PROJECT_DIR$/ieee-deepwalk" />
+      <recent name="$PROJECT_DIR$/ieee2010/sentence2vec" />
       <recent name="$PROJECT_DIR$/ieee/nbody" />
       <recent name="$PROJECT_DIR$/ieee2010/average" />
       <recent name="$PROJECT_DIR$/ieee2010/tfidf" />
@@ -333,13 +321,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00057" summary="fix bug">
-      <created>1513482040895</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1513482040895</updated>
     </task>
     <task id="LOCAL-00058" summary="sentence2vec">
       <created>1513487827654</created>
@@ -677,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514253791190</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="fix bug">
+      <created>1514273332679</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1514273332680</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -765,50 +753,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-909">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paragraph-vectors/paragraphvec/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3955">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentence2vec/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab/dataloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="101" column="8" lean-forward="false" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-train/fastText_h10/fastText.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1043,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1099,16 +1033,6 @@
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1171,6 +1095,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sentence2vec/tf_sen2vec_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tf_sen2vec_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/tf_ieee_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1181,11 +1131,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentence2vec/tf_sen2vec_visualize.py">
+    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/tf_sen2vec_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,6 +1161,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee/nbody/tf_ieee_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee-deepwalk/tf_ieee_2014_dw_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding />
         </state>
       </provider>
