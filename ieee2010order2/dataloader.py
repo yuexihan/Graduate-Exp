@@ -12,6 +12,7 @@ class Loader(object):
         self.vocabulary = self.get_vocabulary()
         self.papers = self.get_papers()
         self.references = self.get_references()
+        self.full_train = full_train
         if full_train:
             train = list(self.references)
             test = []
@@ -74,6 +75,8 @@ class Loader(object):
             for citing_index, cited_index in reader:
                 references.add((int(citing_index), int(cited_index)))
         print 'first order reference: %d' % len(references)
+        if not self.full_train:
+            return references
 
         indexed_references = defaultdict(set)
         new_references = set()
