@@ -9,10 +9,10 @@ class Loader(object):
     def __init__(self, mincount, maxlen, full_train=False):
         self.mincount = mincount
         self.maxlen = maxlen
+        self.full_train = full_train
         self.vocabulary = self.get_vocabulary()
         self.papers = self.get_papers()
         self.references = self.get_references()
-        self.full_train = full_train
         if full_train:
             train = list(self.references)
             test = []
