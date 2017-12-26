@@ -15,7 +15,7 @@ FLAGS = flags.FLAGS
 
 def main(_):
     print 'begin loading data...'
-    loader = Loader(FLAGS.mincount, FLAGS.maxlen, full_train=True)
+    loader = Loader(FLAGS.mincount, FLAGS.maxlen, full_train=False)
     print 'finished loading data\n'
     print 'begin building model...'
     # dataloader, embedding_size, max_epoch, learning_rate, keep_prob
@@ -27,9 +27,9 @@ def main(_):
         keep_prob = FLAGS.keep_prob
     )
     print 'finished building model\n'
-    model.train(full_train=True)
-    # model.save_doc_vector()
-    # model.many_test()
+    # model.train(full_train=True)
+    model.many_test()
+    model.save_doc_vector()
 
 if __name__ == '__main__':
     tf.app.run()
