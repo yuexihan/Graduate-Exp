@@ -55,26 +55,34 @@ for l in label2count:
         tmp[i] /= c
 for i in xrange(dim):
     center[i] /= total
-print 'center =>', center
-print 'total =>', total
-print 'label2count =>', label2count
 print 'label2vec =>', label2vec
+print 'center =>', center
+print 'label2count =>', label2count
+print 'total =>', total
 
 print 'count between'
 # 计算类间
-betweens = []
-for l in label2count:
-    tmp = [(x - y) * (x - y) for x, y in zip(label2vec[l], center)]
-    tmp = sum(tmp)
-    betweens.append((math.sqrt(tmp), label2count[l]))
-between_mean = 0.0
-for dist, c in betweens:
-    between_mean += dist * c
-between_mean /= total
-between_variance = sum((dist - between_mean) * (dist - between_mean) * c for dist, c in betweens)
-between_variance /= total
-print 'between_mean =>', between_mean
-print 'between_variance =>', between_variance
+def cal_between():
+    center_count = [(label2vec[l], label2count[l]) for l in label2count]
+    n = len(center_count)
+    betweens = []
+    for i in xrange(n - 1):
+        for j in xrange(i + 1, n):
+            center1, count1 = center_count[i]
+            center2, count2 = center_count[j]
+            tmp = sum((x - y) * (x - y) for x, y in zip(center1, center2))
+            betweens.append((math.sqrt(tmp)), count1 * count2)
+    between_mean = 0.0
+    total = 0
+    for dist, c in betweens:
+        between_mean += dist
+        total += c
+    between_mean /= total
+    between_variance = sum((dist - between_mean) * (dist - between_mean) * c for dist, c in betweens)
+    between_variance /= total
+    print 'between_mean =>', between_mean
+    print 'between_variance =>', between_variance
+cal_between()
 
 print 'count within'
 # 计算类内
