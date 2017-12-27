@@ -113,7 +113,7 @@ if len(args) == 4:
     ref_variance = sum((x - ref_mean) * (x - ref_mean) for x in ref)
     ref_variance /= len(references)
     noref = []
-    for _ in xrange(len(references) * 15):
+    for _ in tqdm(xrange(len(references) * 15)):
         while True:
             index1 = random.randint(0, total - 1)
             index2 = random.randint(0, total - 1)
