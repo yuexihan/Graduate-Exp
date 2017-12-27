@@ -9,8 +9,8 @@ with open('ieee_vector_nbody.txt','w') as f:
         f.write(str(x) + ' ' + str(y) + '\n')
         d[j] = i
 
-with open('ieee_reference.txt', 'rb') as fin:
-    with open('ieee_reference_nbody.txt', 'wb') as fout:
+with open('ieee_reference.csv', 'rb') as fin:
+    with open('ieee_reference_nbody.csv', 'wb') as fout:
         fout.write(fin.readline)
         reader = csv.reader(fin)
         writer = csv.writer(fout)
