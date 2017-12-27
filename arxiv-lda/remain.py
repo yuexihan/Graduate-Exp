@@ -25,10 +25,17 @@ else:
         reader = csv.reader(f)
         for paper_id, title, authors, abstract, categories in tqdm(reader):
             document = title + ' ' + abstract
-            intermediate = tokenizer.tokenize(document)
-            intermediate = [i.lower() for i in intermediate if i not in stop]
-            intermediate = [lanste.stem(i) for i in intermediate]
-            processed.append(intermediate)
+            tmp = tokenizer.tokenize(document)
+            tmp = [i.lower() for i in tmp if i not in stop]
+            tmp_2 = []
+            for i in tmp:
+                try:
+                    i = lanste.stem(i)
+                    tmp_2.append(i)
+                except:
+                    print i
+                    continue
+            processed.append(tmp_2)
     with open('../data/arxiv_process_for_lda.json', 'w') as f:
         json.dump(processed, f)
 
