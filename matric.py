@@ -2,7 +2,7 @@
 import sys
 from collections import Counter, defaultdict
 import math
-from numpy import np
+import numpy as np
 import csv
 from tqdm import tqdm
 import random
