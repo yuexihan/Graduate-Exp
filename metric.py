@@ -71,7 +71,7 @@ def cal_between():
             center1, count1 = center_count[i]
             center2, count2 = center_count[j]
             tmp = sum((x - y) * (x - y) for x, y in zip(center1, center2))
-            betweens.append((math.sqrt(tmp)), count1 * count2)
+            betweens.append((math.sqrt(tmp), count1 * count2))
     between_mean = 0.0
     total = 0
     for dist, c in betweens:
