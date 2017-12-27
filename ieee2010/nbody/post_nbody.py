@@ -11,7 +11,7 @@ d = {}
 with open('ieee_label_nbody.txt', 'w') as f1:
     with open('ieee_vector_nbody.txt','w') as f2:
         for i, (j, x, y, r) in enumerate(l):
-            f2.write(categories[j])
+            f1.write(categories[j])
             f2.write(str(x) + ' ' + str(y) + '\n')
             d[j] = i
 
