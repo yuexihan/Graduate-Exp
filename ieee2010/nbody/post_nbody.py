@@ -11,7 +11,7 @@ with open('ieee_vector_nbody.txt','w') as f:
 
 with open('ieee_reference.csv', 'rb') as fin:
     with open('ieee_reference_nbody.csv', 'wb') as fout:
-        fout.write(fin.readline)
+        fout.write(fin.readline())
         reader = csv.reader(fin)
         writer = csv.writer(fout)
         for i, j in reader:
