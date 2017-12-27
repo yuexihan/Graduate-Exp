@@ -75,7 +75,7 @@ def cal_between():
     between_mean = 0.0
     total = 0
     for dist, c in betweens:
-        between_mean += dist
+        between_mean += dist * c
         total += c
     between_mean /= total
     between_variance = sum((dist - between_mean) * (dist - between_mean) * c for dist, c in betweens)
