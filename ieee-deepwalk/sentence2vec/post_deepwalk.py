@@ -1,8 +1,6 @@
 import json
 import csv
 
-l = json.load(open('map-071684.json'))
-
 categories = []
 for line in open('ieee_category_2014.txt'):
     categories.append(line)
