@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/display.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metric.md" afterPath="$PROJECT_DIR$/metric.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +17,8 @@
       <file leaf-file-name="average.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -365,13 +362,6 @@
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
     </task>
-    <task id="LOCAL-00094" summary="fix bug">
-      <created>1514198270533</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1514198270534</updated>
-    </task>
     <task id="LOCAL-00095" summary="fix bug">
       <created>1514198329678</created>
       <option name="number" value="00095" />
@@ -708,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514436355752</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="ieee self idf average">
+      <created>1514449223671</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1514449223671</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -752,7 +749,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add fasttext visualize" />
     <MESSAGE value="add tfidf visualize" />
     <MESSAGE value="adjust parameters" />
     <MESSAGE value="full train" />
@@ -777,7 +773,8 @@
     <MESSAGE value="avg vector" />
     <MESSAGE value="metric" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="ieee self idf average" />
+    <option name="LAST_COMMIT_MESSAGE" value="ieee self idf average" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1158,8 +1155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -4,7 +4,7 @@ import re
 
 vocabulary = set()
 with open('../data/ieee_words_lower.txt', 'rb') as fin:
-    for line in f:
+    for line in fin:
         words = line.split()
         for w in words:
             vocabulary.add(w.lower())
