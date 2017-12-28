@@ -1,4 +1,7 @@
 # ieee-2014-predict-cite
+/home/xyue1/code/Graduate-Exp/ieee/save/ieee_category.txt
+/home/xyue1/code/Graduate-Exp/ieee/data/ieee_vectors.txt
+/home/xyue1/code/Graduate-Exp/ieee/data/ieee_reference.csv
 between_mean => 0.595039038211
 between_variance => 0.00807158509097
 within_mean => 1.85976826465
@@ -7,6 +10,7 @@ ref_mean => 1.58693401855
 ref_variance => 0.256731426777
 noref_mean => 2.70517041049
 noref_variance => 0.287446845927
+precision => 0.510488488488
 
 # ieee-2010-predict-cite
 /home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
@@ -20,6 +24,7 @@ ref_mean => 2.04385387703
 ref_variance => 0.382559691879
 noref_mean => 3.05546013969
 noref_variance => 0.459877267688
+precision => 0.490759683715
 
 # ieee-2010-order2
 /home/xyue1/code/Graduate-Exp/ieee2010order2/save/ieee_category.txt
@@ -33,10 +38,11 @@ ref_mean => 2.75024289148
 ref_variance => 1.57473124084
 noref_mean => 3.47282441891
 noref_variance => 1.79668467334
+precision => 0.422242017816
 
 # ieee-2010-s2v
 /home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
-/home/xyue1/code/Graduate-Exp/ieee2010/sentence2vec/ieee_vectors.txt
+/home/xyue1/code/Graduate-Exp/ieee2010/sentence2vec/ieee_vector.txt
 /home/xyue1/code/Graduate-Exp/ieee2010/data/ieee_reference.csv
 between_mean => 0.992473466767
 between_variance => 0.0609975887489
@@ -46,6 +52,7 @@ ref_mean => 3.33254026635
 ref_variance => 0.767483832785
 noref_mean => 4.02539291882
 noref_variance => 1.16794677431
+precisions => 0.522282053848
 
 # ieee-2010-tfidf
 /home/xyue1/code/Graduate-Exp/ieee2010/tfidf/save/ieee_category.txt
@@ -85,6 +92,7 @@ ref_mean => 446.912497133
 ref_variance => 670360.910638
 noref_mean => 27632.9558301
 noref_variance => 452616472.209
+precision => 0.38457866293
 
 # ieee-2010-nbody
 /home/xyue1/code/Graduate-Exp/ieee2010/nbody/ieee_label_nbody.txt
@@ -98,8 +106,12 @@ ref_mean => 1626.69782969
 ref_variance => 4362069.23052
 noref_mean => 41817.4267892
 noref_variance => 619687791.147
+precision => 0.41380242218
 
 # ieee-2014-deepwalk
+/home/xyue1/code/Graduate-Exp/ieee-deepwalk/sentence2vec/ieee_label_2014_nbody.txt
+/home/xyue1/code/Graduate-Exp/ieee-deepwalk/sentence2vec/ieee_vector_2014_nbody.txt
+/home/xyue1/code/Graduate-Exp/ieee-deepwalk/sentence2vec/ieee_reference_2014_nbody.csv
 between_mean => 0.0718226195782
 between_variance => 0.0028155352373
 within_mean => 2.49479023452

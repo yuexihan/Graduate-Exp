@@ -46,7 +46,7 @@ def f():
             new_vectors.append(v)
 
     print 'knn'
-    nbrs = NearestNeighbors(n_neighbors=11, algorithm='ball_tree').fit(new_vectors)
+    nbrs = NearestNeighbors(n_neighbors=6, algorithm='ball_tree').fit(new_vectors)
     distances, indices = nbrs.kneighbors(new_vectors)
     pricision = 0.0
     for line in indices:
@@ -58,6 +58,6 @@ def f():
     print 'pricision =>', pricision
     return pricision
 
-prcisions = [f() for i in xrange(10)]
-print 'prcisions =>', prcisions
-print np.mean(prcisions)
+pricisions = [f() for i in xrange(10)]
+print 'prcisions =>', pricisions
+print 'prcision =>', np.mean(pricisions)
