@@ -51,8 +51,8 @@
       <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="419">
+              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -404,13 +404,6 @@
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
     </task>
-    <task id="LOCAL-00088" summary="fix bug">
-      <created>1514191451707</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1514191451707</updated>
-    </task>
     <task id="LOCAL-00089" summary="fix bug">
       <created>1514191470510</created>
       <option name="number" value="00089" />
@@ -747,7 +740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514431939279</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="fix bug">
+      <created>1514432040505</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1514432040506</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1226,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="419">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

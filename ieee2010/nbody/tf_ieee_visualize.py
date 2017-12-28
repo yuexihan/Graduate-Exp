@@ -36,7 +36,7 @@ with open('ieee_label.txt', 'w') as f:
             count += 1
             continue
         papers.put((x, y, z, c))
-    while papers.not_empty():
+    while not papers.empty():
         x, y, z, c = papers.get()
         f.write(c + '\n')
         paper_embedding[count][0] = x
