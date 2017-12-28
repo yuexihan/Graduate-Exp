@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,21 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="average.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="average.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,8 +141,8 @@
         <option value="$PROJECT_DIR$/KNN.py" />
         <option value="$PROJECT_DIR$/metric.md" />
         <option value="$PROJECT_DIR$/display.py" />
-        <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
+        <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
       </list>
     </option>
   </component>
@@ -361,13 +361,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00095" summary="fix bug">
-      <created>1514198329678</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1514198329678</updated>
     </task>
     <task id="LOCAL-00096" summary="fix bug">
       <created>1514198416636</created>
@@ -705,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514449223671</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="ieee self idf average">
+      <created>1514449280633</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1514449280633</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1145,18 +1145,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py">
+    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
+    <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
       </provider>

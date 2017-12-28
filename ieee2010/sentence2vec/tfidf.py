@@ -32,7 +32,7 @@ with open('ieee_words.vec', 'rb') as f:
 print 'pretrained size: %s' % len(pretrained)
 
 with open('arxivVectorTFIDF.txt', 'wb') as fout:
-    with open('arxiv_words.txt', 'rb') as fin:
+    with open('../data/ieee_words_lower.txt', 'rb') as fin:
         for line in fin:
             words = line.split()
             vector = [0.0] * 100
