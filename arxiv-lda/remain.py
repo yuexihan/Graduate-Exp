@@ -30,6 +30,7 @@ else:
             tmp_2 = []
             for i in tmp:
                 try:
+                    i = i.decode('utf-8')
                     i = lanste.stem(i)
                     tmp_2.append(i)
                 except:
