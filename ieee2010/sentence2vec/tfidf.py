@@ -31,7 +31,7 @@ with open('ieee_words.vec', 'rb') as f:
             pretrained[word] = [float(x) for x in vector]
 print 'pretrained size: %s' % len(pretrained)
 
-with open('arxivVectorTFIDF.txt', 'wb') as fout:
+with open('ieeeVectorTFIDF.txt', 'wb') as fout:
     with open('../data/ieee_words_lower.txt', 'rb') as fin:
         for line in fin:
             words = line.split()

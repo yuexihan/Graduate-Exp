@@ -78,6 +78,34 @@ noref_variance => 1.16794677431
 precisions => 0.522282053848
 precision => 0.533165849264
 
+# ieee-2010-self-tfidf
+/home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
+/home/xyue1/code/Graduate-Exp/ieee2010/sentence2vec/ieeeVectorTFIDF.txt
+/home/xyue1/code/Graduate-Exp/ieee2010/data/ieee_reference.csv
+between_mean => 0.251113888245
+between_variance => 0.00390819973007
+within_mean => 0.495159392659
+within_variance => 0.0123843618764
+ref_mean => 0.449941645732
+ref_variance => 0.0128595899464
+noref_mean => 0.737434363574
+noref_variance => 0.0182632859833
+precision => 0.554245821239
+
+# ieee-2010-self-average
+/home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
+/home/xyue1/code/Graduate-Exp/ieee2010/sentence2vec/ieeeVectorAvg.txt
+/home/xyue1/code/Graduate-Exp/ieee2010/data/ieee_reference.csv
+between_mean => 0.138912381746
+between_variance => 0.00117069453753
+within_mean => 0.289833649499
+within_variance => 0.00420475676526
+ref_mean => 0.278379584171
+ref_variance => 0.00440376460614
+noref_mean => 0.429400967373
+noref_variance => 0.00637546471968
+precision => 0.545500950856
+
 # ieee-2010-tfidf
 /home/xyue1/code/Graduate-Exp/ieee2010/tfidf/save/ieee_category.txt
 /home/xyue1/code/Graduate-Exp/ieee2010/tfidf/ieeeVectorAvg.txt
@@ -261,3 +289,37 @@ within_variance => 0.00818448206227
 precision => 0.293077775539
 --knn category
 precision => 0.856692007602
+
+# lda-10
+/home/xyue1/code/Graduate-Exp/arxiv-lda/topic_200_10.vec
+--metric label
+between_mean => 0.757780605192
+between_variance => 0.0473640988834
+within_mean => 0.395196862533
+within_variance => 0.0415124940865
+--metric category
+between_mean => 0.623356317212
+between_variance => 0.00512899041108
+within_mean => 0.606476334462
+within_variance => 0.0375185856515
+--knn label
+precision => 0.204986903083
+--knn category
+precision => 0.83755626688
+
+# lda-50
+/home/xyue1/code/Graduate-Exp/arxiv-lda/topic_200.vec
+--metric label
+between_mean => 0.411361770977
+between_variance => 0.00793702198476
+within_mean => 0.411729087545
+within_variance => 0.0139057859081
+--metric category
+between_mean => 0.263481550336
+between_variance => 0.00267224736515
+within_mean => 0.489126578762
+within_variance => 0.0129797009543
+--knn label
+precision => 0.299494257506
+--knn category
+precision => 0.867082124637

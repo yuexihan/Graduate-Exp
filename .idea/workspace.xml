@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/ieee_lda/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/ieee_lda/remain.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arxiv-lda/README.md" afterPath="$PROJECT_DIR$/arxiv-lda/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" afterPath="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metric.md" afterPath="$PROJECT_DIR$/metric.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,6 +18,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="remain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee2010/ieee_lda/remain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="82" column="67" lean-forward="false" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="average.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/average.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -24,11 +38,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="365">
+              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metric.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metric.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arxiv-lda/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/display.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-54">
+              <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -45,7 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__label__</find>
       <find>torchtext.data</find>
       <find>fire</find>
       <find>print</find>
@@ -75,6 +118,7 @@
       <find>/home/xyue1/code/Graduate-Exp/arxiv-train/TFIDF/arxivVectorTFIDF.txt</find>
       <find>/home/xyue1/code/Graduate-Exp/sentence2vec/arxivVectorTFIDF.txt</find>
       <find>/home/xyue1/code/Graduate-Exp/arxiv-train/TFIDF/data/arxivVectorAvg.txt</find>
+      <find>--knn category</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -92,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arxiv-fasttext/tf_fasttext_lda_visualize.py" />
-        <option value="$PROJECT_DIR$/ieee2010/model.py" />
         <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/data.py" />
         <option value="$PROJECT_DIR$/paragraph-vectors/preprocess.py" />
         <option value="$PROJECT_DIR$/ieee/_preprocess.py" />
@@ -139,10 +181,12 @@
         <option value="$PROJECT_DIR$/ieee-deepwalk/tf_ieee_2014_dw_visualize.py" />
         <option value="$PROJECT_DIR$/ieee2010order2/README.md" />
         <option value="$PROJECT_DIR$/KNN.py" />
-        <option value="$PROJECT_DIR$/metric.md" />
         <option value="$PROJECT_DIR$/display.py" />
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
+        <option value="$PROJECT_DIR$/metric.md" />
+        <option value="$PROJECT_DIR$/arxiv-lda/README.md" />
+        <option value="$PROJECT_DIR$/ieee2010/ieee_lda/remain.py" />
       </list>
     </option>
   </component>
@@ -244,6 +288,12 @@
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee_lda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
               <item name="nbody" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,11 +354,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ieee2010/ieee_lda" />
       <recent name="$PROJECT_DIR$/ieee2010/sentence2vec" />
       <recent name="$PROJECT_DIR$/ieee-deepwalk" />
       <recent name="$PROJECT_DIR$/ieee/nbody" />
       <recent name="$PROJECT_DIR$/sentence2vec" />
-      <recent name="$PROJECT_DIR$/ieee2010" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ieee-deepwalk/sentence2vec" />
@@ -361,13 +411,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00096" summary="fix bug">
-      <created>1514198416636</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1514198416636</updated>
     </task>
     <task id="LOCAL-00097" summary="fix bug">
       <created>1514198458843</created>
@@ -705,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514449280633</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="fix bug">
+      <created>1514449439963</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1514449439963</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -772,29 +822,15 @@
     <MESSAGE value="add sen2vec visualize" />
     <MESSAGE value="avg vector" />
     <MESSAGE value="metric" />
-    <MESSAGE value="fix bug" />
     <MESSAGE value="ieee self idf average" />
-    <option name="LAST_COMMIT_MESSAGE" value="ieee self idf average" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ieee/tf_ieee_visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/statistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arxiv-train/TFIDF/arxivVectorOneHot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -955,6 +991,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="124" column="25" lean-forward="true" selection-start-line="119" selection-start-column="8" selection-end-line="124" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -962,6 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-676">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,6 +1053,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,7 +1085,7 @@
         <state relative-caret-position="255">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1054,7 +1095,7 @@
         <state relative-caret-position="15">
           <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1083,30 +1124,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/display.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arxiv-lda/remain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/metric.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="24" selection-end-column="21" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,16 +1139,8 @@
         <state relative-caret-position="500">
           <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metric.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-888">
-          <caret line="163" column="14" lean-forward="true" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,8 +1170,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/display.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arxiv-lda/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arxiv-lda/remain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/ieee_lda/remain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="82" column="67" lean-forward="false" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
           <folding />
         </state>
       </provider>
