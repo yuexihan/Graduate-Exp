@@ -48,16 +48,16 @@ def f():
     print 'knn'
     nbrs = NearestNeighbors(n_neighbors=6, algorithm='ball_tree').fit(new_vectors)
     distances, indices = nbrs.kneighbors(new_vectors)
-    pricision = 0.0
+    precision = 0.0
     for line in indices:
         i = line[0]
         for j in line[1:]:
             if new_labels[i] == new_labels[j]:
-                pricision += 1.0
-    pricision /= (len(indices) * 10)
-    print 'pricision =>', pricision
-    return pricision
+                precision += 1.0
+    precision /= (len(indices) * 10)
+    print 'precision =>', precision
+    return precision
 
-pricisions = [f() for i in xrange(10)]
-print 'prcisions =>', pricisions
-print 'prcision =>', np.mean(pricisions)
+precisions = [f() for i in xrange(10)]
+print 'precisions =>', precisions
+print 'precision =>', np.mean(precisions)
