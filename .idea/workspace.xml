@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee/nbody/post_nbody.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" afterPath="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metric.md" afterPath="$PROJECT_DIR$/metric.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,14 +42,24 @@
       <file leaf-file-name="metric.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metric.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="77">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_nbody.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_nbody.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee/nbody/post_nbody.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -207,7 +218,6 @@
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/average.py" />
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tfidf.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/tf_ieee_2014_dw_visualize.py" />
-        <option value="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/refjson.py" />
         <option value="$PROJECT_DIR$/sentence2vec/average.py" />
         <option value="$PROJECT_DIR$/sentence2vec/tfidf.py" />
@@ -220,9 +230,10 @@
         <option value="$PROJECT_DIR$/metric.md.py" />
         <option value="$PROJECT_DIR$/metric.py" />
         <option value="$PROJECT_DIR$/ieee2010/nbody/post_nbody.py" />
-        <option value="$PROJECT_DIR$/metric.md" />
         <option value="$PROJECT_DIR$/arxiv-lda/remain.py" />
         <option value="$PROJECT_DIR$/ieee/nbody/post_nbody.py" />
+        <option value="$PROJECT_DIR$/metric.md" />
+        <option value="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" />
       </list>
     </option>
   </component>
@@ -416,13 +427,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00082" summary="fix bug">
-      <created>1514171777716</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1514171777716</updated>
     </task>
     <task id="LOCAL-00083" summary="fix bug">
       <created>1514181183722</created>
@@ -760,7 +764,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514428306220</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="fix bug">
+      <created>1514428512658</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1514428512658</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1036,16 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1236,18 +1237,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metric.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee/nbody/post_nbody.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding />
         </state>
       </provider>

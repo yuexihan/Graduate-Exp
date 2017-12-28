@@ -3,18 +3,19 @@ import numpy as np
 from tensorflow.contrib.tensorboard.plugins import projector
 import json
 
-paper_embedding = np.empty((1827322, 2), dtype=np.float32)
+paper_embedding = np.empty((387667, 3), dtype=np.float32)
 
 categories = []
 for line in open('ieee_category.txt'):
     categories.append(line)
 
-l = json.load(open('map-1827322.json'))
+l = json.load(open('map-387667.json'))
 
 with open('ieee_label.txt', 'w') as f:
     for i, (j, x, y, r) in enumerate(l):
         paper_embedding[i][0] = x
         paper_embedding[i][1] = y
+        paper_embedding[i][2] = 0.0
         f.write(categories[j])
 
 paper_embedding = tf.Variable(paper_embedding, trainable=False, name='paper_embedding', dtype=tf.float32)
