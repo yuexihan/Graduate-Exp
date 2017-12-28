@@ -17,7 +17,7 @@ l = json.load(open('map-387667.json'))
 papers = Queue()
 has_c = set()
 for i, (j, x, y, r) in enumerate(l):
-    l.put((x, y, 0.0, categories[j]))
+    papers.put((x, y, 0.0, categories[j]))
     has_c.add(categories[j])
 
 count = 0
