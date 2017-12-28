@@ -3,8 +3,10 @@ import numpy as np
 import os
 from tensorflow.contrib.tensorboard.plugins import projector
 
+seq = ['Computer Science', 'Engineering', 'Physics', 'Chemistry', 'Materials Science', 'Mathematics', 'Geology', 'Biology', 'Medicine', 'Economics', 'Sociology', 'Psychology', 'Philosophy', 'Art', 'History', 'Geography', 'Business', 'Environmental science']
+
 paper_embedding = np.empty((1216315, 100), dtype=np.float32)
-with open('arxiv_words.txt.vec') as f:
+with open('ieee-deepwalk-2014.txt.vec') as f:
     f.readline()
     for i, line in enumerate(f):
         for j, x in enumerate(line.split()[1:]):
