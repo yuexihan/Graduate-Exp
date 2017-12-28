@@ -4,6 +4,8 @@
     <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/post_deepwalk.py" afterPath="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/post_deepwalk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" afterPath="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metric.md" afterPath="$PROJECT_DIR$/metric.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +31,7 @@
       <file leaf-file-name="metric.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1397">
+            <state relative-caret-position="1280">
               <caret line="115" column="47" lean-forward="false" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
@@ -41,19 +43,21 @@
       <file leaf-file-name="metric.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/metric.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="326">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tf_ieee_visualize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="603">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_deepwalk.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post_deepwalk.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/post_deepwalk.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -203,10 +207,10 @@
         <option value="$PROJECT_DIR$/ieee2010/nbody/post_nbody.py" />
         <option value="$PROJECT_DIR$/arxiv-lda/remain.py" />
         <option value="$PROJECT_DIR$/ieee/nbody/post_nbody.py" />
-        <option value="$PROJECT_DIR$/metric.md" />
-        <option value="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/post_deepwalk.py" />
         <option value="$PROJECT_DIR$/ieee-deepwalk/sentence2vec/post_deepwalk.py" />
+        <option value="$PROJECT_DIR$/metric.md" />
+        <option value="$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py" />
       </list>
     </option>
   </component>
@@ -401,13 +405,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00086" summary="fix bug">
-      <created>1514191253360</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1514191253360</updated>
     </task>
     <task id="LOCAL-00087" summary="fix bug">
       <created>1514191284272</created>
@@ -745,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514430431374</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="fix bug">
+      <created>1514430464599</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1514430464599</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1132,24 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1397">
-          <caret line="115" column="47" lean-forward="false" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1162,14 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/metric.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1224,9 +1202,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ieee-deepwalk/sentence2vec/post_deepwalk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="115" column="47" lean-forward="false" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/nbody/tf_ieee_visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

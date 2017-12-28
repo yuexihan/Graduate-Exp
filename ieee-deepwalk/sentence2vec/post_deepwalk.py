@@ -7,7 +7,7 @@ for line in open('ieee_category_2014.txt'):
 
 d = {}
 with open('ieee_label_2014_nbody.txt', 'w') as f1:
-    with open('ieee_vector_2014_nbody.txt','w') as f2:
+    with open('ieee_vector_2014_nbody.txt', 'w') as f2:
         with open('ieee-deepwalk-2014.txt.vec') as f:
             f.readline()
             for i, line in enumerate(f):

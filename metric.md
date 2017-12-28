@@ -34,6 +34,9 @@ ref_variance => 0.767483832785
 noref_mean => 4.02539291882
 noref_variance => 1.16794677431
 
+# ieee-2010-tfidf
+
+
 # ieee-2014-nbody
 /home/xyue1/code/Graduate-Exp/ieee/nbody/ieee_label_nbody.txt
 /home/xyue1/code/Graduate-Exp/ieee/nbody/ieee_vector_nbody.txt
@@ -60,10 +63,18 @@ ref_variance => 4362069.23052
 noref_mean => 41817.4267892
 noref_variance => 619687791.147
 
+# ieee-2014-deepwalk
+between_mean => 0.0718226195782
+between_variance => 0.0028155352373
+within_mean => 2.49479023452
+within_variance => 0.11572039717
+ref_mean => 3.1752668134
+ref_variance => 1.25051038126
+noref_mean => 3.53918808695
+noref_variance => 0.158068837588
+
 # arxiv-fasttext
 between_mean => 0.581469652394
 between_variance => 0.0132261255021
 within_mean => 0.395313553712
 within_variance => 0.0124132436452
-
-#
