@@ -195,7 +195,7 @@ precision => 0.54646987709
 --knn category
 precision => 0.926632989897
 --classify label
-classify =>
+classify => 0.787144777463
 --classify category
 classify => 0.948406457209
 
@@ -280,7 +280,7 @@ precision => 0.323377997179
 --knn category
 precision => 0.866973091928
 --classify label
-classify =>
+classify => 0.560057222019
 --classify category
 classify => 0.917916822534
 
@@ -301,7 +301,7 @@ precision => 0.293077775539
 --knn category
 precision => 0.856692007602
 --classify label
-classify =>
+classify => 0.546399575768
 --classify category
 classify => 0.917490123858
 
@@ -322,7 +322,7 @@ precision => 0.204986903083
 --knn category
 precision => 0.83755626688
 --classify label
-classify =>
+classify => 0.322530758891
 --classify category
 classify => 0.885926754171
 
@@ -343,6 +343,6 @@ precision => 0.299494257506
 --knn category
 precision => 0.867082124637
 --classify label
-classify =>
+classify => 0.45460427603
 --classify category
 classify => 0.908676617488
