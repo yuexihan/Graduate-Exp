@@ -172,6 +172,22 @@ precisions => 0.335841673339
 precision => 0.340798638912
 classify => 0.495856816026
 
+# ieee-lda
+/home/xyue1/code/Graduate-Exp/ieee2010/ieee_lda/save/ieee_category.txt
+/home/xyue1/code/Graduate-Exp/ieee2010/ieee_lda/doctopic.vec
+/home/xyue1/code/Graduate-Exp/ieee2010/data/ieee_reference.csv
+between_mean => 0.1796909502
+between_variance => 0.00303475714081
+within_mean => 0.472890690944
+within_variance => 0.0125086522969
+loading references
+ref_mean => 0.386231603691
+ref_variance => 0.0221666525609
+noref_mean => 0.692320148518
+noref_variance => 0.0176770776403
+precision => 0.529102191973
+classify => 0.66223129173
+
 # 小类
 /home/xyue1/code/Graduate-Exp/arxiv-fasttext/save/arxiv_label.txt
 # 大类
@@ -217,7 +233,7 @@ precision => 0.261518234939
 --knn category
 precision => 0.841989596879
 --classify label
-classify =>
+classify => 0.498684962366
 --classify category
 classify => 0.883101005907
 
@@ -238,7 +254,7 @@ precision => 0.18868224864
 --knn category
 precision => 0.77244573372
 --classify label
-classify =>
+classify => 0.512962513822
 --classify category
 classify => 0.884042373892
 
@@ -259,7 +275,7 @@ precision => 0.183499899254
 --knn category
 precision => 0.772907872362
 --classify label
-classify =>
+classify => 0.520771346238
 --classify category
 classify => 0.895789330889
 
