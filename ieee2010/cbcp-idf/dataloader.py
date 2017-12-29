@@ -1,10 +1,8 @@
 import csv
-import json
 from collections import Counter, defaultdict
 import random
 import math
 import numpy as np
-import os
 
 
 class Loader(object):
@@ -48,10 +46,10 @@ class Loader(object):
                 for w in words:
                     if w in vocabulary:
                         wordIDF[w] += 1
-
         for word in wordIDF:
             wordIDF[word] = math.log(totalDF * 1.0 / wordIDF[word])
         print 'wordIDF size: %s' % len(wordIDF)
+
         idf_mean = np.mean(wordIDF.values())
         for w in wordIDF:
             i = vocabulary[w]
