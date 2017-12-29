@@ -70,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -432,13 +432,6 @@
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
     </task>
-    <task id="LOCAL-00100" summary="fix bug">
-      <created>1514207835024</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1514207835024</updated>
-    </task>
     <task id="LOCAL-00101" summary="fix bug">
       <created>1514208399942</created>
       <option name="number" value="00101" />
@@ -775,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514519863271</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="lr">
+      <created>1514519904416</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1514519904416</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -1234,7 +1234,7 @@
     <entry file="file://$PROJECT_DIR$/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
           <folding>
             <element signature="e#15#25#0" expanded="true" />
           </folding>
