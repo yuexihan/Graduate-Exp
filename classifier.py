@@ -24,7 +24,7 @@ for line in tqdm(open(args[2])):
     vectors.append(v)
 
 print 'training'
-LR = linear_model.LogisticRegression()
+LR = linear_model.LogisticRegression(solver='sag')
 LR.fit(vectors, labels)
 
 print 'testing'

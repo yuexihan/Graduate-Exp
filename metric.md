@@ -1,23 +1,3 @@
-\begin{table}[!htb]
-\centering
-\bicaption[tab:ieee:compare]{量化比较各算法对IEEE可视化效果}{化比较各算法对IEEE可视化效果}{Table}{Quantitative Comparison of Visualization Results of IEEE}
-\begin{tabular}{l@{\quad}c{\quad}c{\quad}r}
-\toprule
-算法 & 大类聚合度 & 引用聚合度 & 小类聚合度  \\
-\midrule
-2014-CBCP & 0.319953324036 & 1.70465210202 & 0.510488488488 \\
-2010-CBCP & 0.274775147923 & 1.49495038468 & 0.490759683715 \\
-CBCP-2steps & 0.241419129346 & 1.26273371333 & 0.422242017816 \\
-Paragraph Vector & 0.36921612896 & 1.20790526058 & 0.522282053848 \\
-IDF加权预训练词向量 & 0.471673590562 & 1.46190070546 & 0.527214493044 \\
-平均预训练词向量 & 0.465372203036 & 1.4469182001 & 0.530060054049 \\
-2014-Paperscape & 0.187947798687 & 61.8307968727 & 0.38457866293 \\
-2010-Paperscape & 0.249974951324 & 25.7069420183 & 0.41380242218 \\
-DeepWalk & 0.0287890414931 & 1.11461124212 & 0.335841673339 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
 # ieee-2014-predict-cite
 /home/xyue1/code/Graduate-Exp/ieee/save/ieee_category.txt
 /home/xyue1/code/Graduate-Exp/ieee/data/ieee_vectors.txt
@@ -32,6 +12,7 @@ noref_mean => 2.70517041049
 noref_variance => 0.287446845927
 precisions => 0.510488488488
 precision => 0.519801801802
+classify => 0.627079533906
 
 # ieee-2010-predict-cite
 /home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
@@ -47,6 +28,7 @@ noref_mean => 3.05546013969
 noref_variance => 0.459877267688
 precisions => 0.490759683715
 precision => 0.499955960364
+classify => 0.61407668066
 
 # ieee-2010-order2
 /home/xyue1/code/Graduate-Exp/ieee2010order2/save/ieee_category.txt
@@ -62,6 +44,7 @@ noref_mean => 3.47282441891
 noref_variance => 1.79668467334
 precisions => 0.422242017816
 precision => 0.426121509358
+classify => 0.555898874571
 
 # ieee-2010-s2v
 /home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
@@ -77,6 +60,7 @@ noref_mean => 4.02539291882
 noref_variance => 1.16794677431
 precisions => 0.522282053848
 precision => 0.533165849264
+classify => 0.652034623717
 
 # ieee-2010-self-tfidf
 /home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
@@ -91,6 +75,7 @@ ref_variance => 0.0128595899464
 noref_mean => 0.737434363574
 noref_variance => 0.0182632859833
 precision => 0.554245821239
+0.681381404628
 
 # ieee-2010-self-average
 /home/xyue1/code/Graduate-Exp/ieee2010/save/ieee_category.txt
@@ -105,6 +90,7 @@ ref_variance => 0.00440376460614
 noref_mean => 0.429400967373
 noref_variance => 0.00637546471968
 precision => 0.545500950856
+classify => 0.681246170304
 
 # ieee-2010-tfidf
 /home/xyue1/code/Graduate-Exp/ieee2010/tfidf/save/ieee_category.txt
@@ -120,6 +106,7 @@ noref_mean => 0.926788130976
 noref_variance => 0.0445503242235
 precisions => 0.527214493044
 precision => 0.533301971774
+classify => 0.666818999583
 
 # ieee-2010-average
 /home/xyue1/code/Graduate-Exp/ieee2010/average/save/ieee_category.txt
@@ -135,6 +122,7 @@ noref_mean => 0.596899512074
 noref_variance => 0.0146369023367
 precisions => 0.530060054049
 precision => 0.537613852468
+classify => 0.676502709816
 
 # ieee-2014-nbody
 /home/xyue1/code/Graduate-Exp/ieee/nbody/ieee_label_nbody.txt
@@ -150,6 +138,7 @@ noref_mean => 27632.9558301
 noref_variance => 452616472.209
 precisions => 0.38457866293
 precision => 0.392081665332
+classify => 0.49793538307
 
 # ieee-2010-nbody
 /home/xyue1/code/Graduate-Exp/ieee2010/nbody/ieee_label_nbody.txt
@@ -165,6 +154,7 @@ noref_mean => 41817.4267892
 noref_variance => 619687791.147
 precisions => 0.41380242218
 precision => 0.421317185466
+classify => 0.501195613761
 
 # ieee-2014-deepwalk
 /home/xyue1/code/Graduate-Exp/ieee-deepwalk/sentence2vec/ieee_label_2014_nbody.txt
@@ -180,6 +170,7 @@ noref_mean => 3.53918808695
 noref_variance => 0.158068837588
 precisions => 0.335841673339
 precision => 0.340798638912
+classify => 0.495856816026
 
 # 小类
 /home/xyue1/code/Graduate-Exp/arxiv-fasttext/save/arxiv_label.txt
@@ -203,6 +194,10 @@ within_variance => 0.01755870517
 precision => 0.54646987709
 --knn category
 precision => 0.926632989897
+--classify label
+classify =>
+--classify category
+classify => 0.948406457209
 
 
 # arxiv-s2v
@@ -221,6 +216,10 @@ within_variance => 1.16349519473
 precision => 0.261518234939
 --knn category
 precision => 0.841989596879
+--classify label
+classify =>
+--classify category
+classify => 0.883101005907
 
 # arxiv-pre-idf
 /home/xyue1/code/Graduate-Exp/arxiv-train/TFIDF/arxivVectorTFIDF.txt
@@ -238,6 +237,10 @@ within_variance => 0.0214378797711
 precision => 0.18868224864
 --knn category
 precision => 0.77244573372
+--classify label
+classify =>
+--classify category
+classify => 0.884042373892
 
 # arxiv-pre-average
 /home/xyue1/code/Graduate-Exp/arxiv-train/TFIDF/data/arxivVectorAvg.txt
@@ -255,6 +258,10 @@ within_variance => 0.0120123780819
 precision => 0.183499899254
 --knn category
 precision => 0.772907872362
+--classify label
+classify =>
+--classify category
+classify => 0.895789330889
 
 # arxiv-self-idf
 /home/xyue1/code/Graduate-Exp/sentence2vec/arxivVectorTFIDF.txt
@@ -272,6 +279,10 @@ within_variance => 0.0163109695919
 precision => 0.323377997179
 --knn category
 precision => 0.866973091928
+--classify label
+classify =>
+--classify category
+classify => 0.917916822534
 
 # arxiv-self-average
 /home/xyue1/code/Graduate-Exp/sentence2vec/arxivVectorAvg.txt
@@ -289,6 +300,10 @@ within_variance => 0.00818448206227
 precision => 0.293077775539
 --knn category
 precision => 0.856692007602
+--classify label
+classify =>
+--classify category
+classify => 0.917490123858
 
 # lda-10
 /home/xyue1/code/Graduate-Exp/arxiv-lda/topic_200_10.vec
@@ -306,6 +321,10 @@ within_variance => 0.0375185856515
 precision => 0.204986903083
 --knn category
 precision => 0.83755626688
+--classify label
+classify =>
+--classify category
+classify => 0.885926754171
 
 # lda-50
 /home/xyue1/code/Graduate-Exp/arxiv-lda/topic_200.vec
@@ -323,3 +342,7 @@ within_variance => 0.0129797009543
 precision => 0.299494257506
 --knn category
 precision => 0.867082124637
+--classify label
+classify =>
+--classify category
+classify => 0.908676617488
