@@ -142,7 +142,7 @@ class Model(object):
         self.load('save', 'best')
         represents = self.represent(self.args1, self.masks1, self.lens1)
         sess = self.sess
-        with open('data/ieee_vectors.txt', 'wb') as f:
+        with open('ieee_vectors.txt', 'wb') as f:
             for paper in self.dataloader.papers:
                 args = [paper['arg']]
                 masks = [paper['mask']]

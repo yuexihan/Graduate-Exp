@@ -13,8 +13,10 @@ class Loader(object):
         self.papers = self.get_papers()
         self.references = self.get_references()
         if full_train:
-            train = list(self.references)
-            test = []
+            ref = list(self.references)
+            i = int(len(ref) * 0.8)
+            train = ref
+            test = ref[i:]
         else:
             ref = list(self.references)
             i = int(len(ref) * 0.8)
@@ -68,7 +70,6 @@ class Loader(object):
                 citing_index = int(citing_index)
                 cited_index = int(cited_index)
                 references.add((citing_index, cited_index))
-                references.add((cited_index, citing_index))
         return references
 
 

@@ -28,7 +28,7 @@ def main(_):
     )
     print 'finished building model\n'
     model.train(full_train=True)
-    # model.save_doc_vector()
+    model.save_doc_vector()
     # model.many_test()
 
 
