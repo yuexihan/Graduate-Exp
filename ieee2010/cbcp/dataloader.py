@@ -34,7 +34,7 @@ class Loader(object):
                 line = line.split()
                 w = line[0]
                 v = [float(x) for x in line[1:]]
-                vocabulary[v] = len(vocabulary)
+                vocabulary[w] = len(vocabulary)
                 embedding.append(v)
         return embedding, vocabulary
 

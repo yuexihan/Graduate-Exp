@@ -13,4 +13,5 @@ checkpoint
 *.npy
 *.pyc
 
+.idea
 data/*
