@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="fix bug">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Graduate-Exp.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/cbcp/dataloader.py" afterPath="$PROJECT_DIR$/ieee2010/cbcp/dataloader.py" />
+    <list default="true" id="eccf2dff-f6af-4622-b39c-626061787db1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/cbcp-idf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/cbcp-idf/dataloader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/cbcp-idf/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ieee2010/cbcp-idf/model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ieee2010/cbcp/model.py" afterPath="$PROJECT_DIR$/ieee2010/cbcp/model.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,21 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/main.py">
+      <file leaf-file-name="dataloader.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ieee2010/cbcp-idf/dataloader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataloader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/dataloader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="801">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -63,24 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="398">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/model.py">
+      <file leaf-file-name="tfidf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1663">
-              <caret line="144" column="49" lean-forward="true" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="89">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/train.py" />
-        <option value="$PROJECT_DIR$/sentence2vec/tf_sen2vec_visualize.py" />
         <option value="$PROJECT_DIR$/paragraph-vectors/paragraphvec/utils.py" />
         <option value="$PROJECT_DIR$/para_gensim/main.py" />
         <option value="$PROJECT_DIR$/arxiv-train/TFIDF/tf_average_visualize.py" />
@@ -190,10 +177,12 @@
         <option value="$PROJECT_DIR$/ieee2010/sentence2vec/tf_vec_visualize.py" />
         <option value="$PROJECT_DIR$/ieee2010/ieee_lda/tf_lda_visualize.py" />
         <option value="$PROJECT_DIR$/metric.md" />
-        <option value="$PROJECT_DIR$/ieee2010/cbcp/model.py" />
         <option value="$PROJECT_DIR$/ieee2010/cbcp/main.py" />
         <option value="$PROJECT_DIR$/ieee2010/cbcp/dataloader.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ieee2010/cbcp-idf/dataloader.py" />
+        <option value="$PROJECT_DIR$/ieee2010/cbcp/model.py" />
+        <option value="$PROJECT_DIR$/ieee2010/cbcp-idf/model.py" />
       </list>
     </option>
   </component>
@@ -301,6 +290,12 @@
               <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
               <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
               <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
+              <item name="cbcp-idf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Graduate-Exp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Graduate-Exp" type="462c0819:PsiDirectoryNode" />
+              <item name="ieee2010" type="462c0819:PsiDirectoryNode" />
               <item name="ieee_lda" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,11 +362,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ieee2010" />
       <recent name="$PROJECT_DIR$/ieee2010/cbcp" />
       <recent name="$PROJECT_DIR$/ieee2010/ieee_lda" />
       <recent name="$PROJECT_DIR$/ieee2010/sentence2vec" />
       <recent name="$PROJECT_DIR$/ieee-deepwalk" />
-      <recent name="$PROJECT_DIR$/ieee/nbody" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ieee-deepwalk/sentence2vec" />
@@ -424,13 +419,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511277035288</updated>
-    </task>
-    <task id="LOCAL-00106" summary="fix bug">
-      <created>1514273332679</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1514273332680</updated>
     </task>
     <task id="LOCAL-00107" summary="fix bug">
       <created>1514274510001</created>
@@ -768,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514566347701</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="fix bug">
+      <created>1514566586929</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1514566586929</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -833,39 +828,17 @@
     <MESSAGE value="avg vector" />
     <MESSAGE value="metric" />
     <MESSAGE value="ieee self idf average" />
-    <MESSAGE value="fix bug" />
     <MESSAGE value="ieee lda" />
     <MESSAGE value="lr" />
     <MESSAGE value="pretrain cbcp" />
-    <option name="LAST_COMMIT_MESSAGE" value="pretrain cbcp" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ieee2010order2/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010order2/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2281">
-          <caret line="165" column="8" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arxiv-fasttext/result.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paragraph-vectors/codecov.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -884,13 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1174,14 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/metric.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3793">
-          <caret line="258" column="18" lean-forward="false" selection-start-line="258" selection-start-column="12" selection-end-line="258" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/sentence2vec/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1208,6 +1166,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp-idf/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/dataloader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3793">
+          <caret line="258" column="18" lean-forward="false" selection-start-line="258" selection-start-column="12" selection-end-line="258" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ieee2010/tfidf/tfidf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1216,31 +1216,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/model.py">
+    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp-idf/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1663">
-          <caret line="144" column="49" lean-forward="true" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
+        <state relative-caret-position="426">
+          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/dataloader.py">
+    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="398">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ieee2010/cbcp-idf/dataloader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="801">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
