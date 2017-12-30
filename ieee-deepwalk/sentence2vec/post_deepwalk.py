@@ -6,8 +6,8 @@ for line in open('ieee_category_2014.txt'):
     categories.append(line)
 
 d = {}
-with open('ieee_label_2014_nbody.txt', 'w') as f1:
-    with open('ieee_vector_2014_nbody.txt', 'w') as f2:
+with open('ieee_label_nbody.txt', 'w') as f1:
+    with open('ieee_vector_nbody.txt', 'w') as f2:
         with open('ieee-deepwalk-2014.txt.vec') as f:
             f.readline()
             for i, line in enumerate(f):
@@ -19,8 +19,8 @@ with open('ieee_label_2014_nbody.txt', 'w') as f1:
                 f2.write(line + '\n')
                 d[j] = i
 
-with open('ieee_reference_2014.csv', 'rb') as fin:
-    with open('ieee_reference_2014_nbody.csv', 'wb') as fout:
+with open('ieee_reference_.csv', 'rb') as fin:
+    with open('ieee_reference_nbody.csv', 'wb') as fout:
         fout.write(fin.readline())
         reader = csv.reader(fin)
         writer = csv.writer(fout)
