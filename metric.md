@@ -188,6 +188,31 @@ noref_variance => 0.0176770776403
 precision => 0.529102191973
 classify => 0.66223129173
 
+# ieee-cbcp-2
+between_mean => 0.590452083708
+between_variance => 0.00926061417823
+within_mean => 2.38275451943
+within_variance => 0.326897899829
+ref_mean => 2.35483984959
+ref_variance => 0.350973512324
+noref_mean => 3.44380756237
+noref_variance => 0.400120892594
+precision => 0.504235812231
+classify => 0.627652341466
+
+# ieee-cbcp-idf-4
+between_mean => 0.883011338097
+between_variance => 0.0319105556007
+within_mean => 1.2805273473
+within_variance => 0.19493463643
+ref_mean => 0.921146469265
+ref_variance => 0.131223943714
+noref_mean => 1.97043571816
+noref_variance => 0.35584075674
+precision => 0.526627965169
+classify => 0.680284607629
+
+
 # 小类
 /home/xyue1/code/Graduate-Exp/arxiv-fasttext/save/arxiv_label.txt
 # 大类
