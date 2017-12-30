@@ -27,7 +27,7 @@ def main(_):
         keep_prob=FLAGS.keep_prob
     )
     print 'finished building model\n'
-    model.train(full_train=True)
+    # model.train(full_train=True)
     model.save_doc_vector()
     # model.many_test()
 
