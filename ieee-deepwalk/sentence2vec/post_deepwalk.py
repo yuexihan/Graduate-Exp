@@ -8,7 +8,7 @@ for line in open('ieee_category_2014.txt'):
 d = {}
 with open('ieee_label_nbody.txt', 'w') as f1:
     with open('ieee_vector_nbody.txt', 'w') as f2:
-        with open('ieee-deepwalk-2014.txt.vec') as f:
+        with open('ieee-deepwalk.txt.vec') as f:
             f.readline()
             for i, line in enumerate(f):
                 line = line.split()
@@ -19,7 +19,7 @@ with open('ieee_label_nbody.txt', 'w') as f1:
                 f2.write(line + '\n')
                 d[j] = i
 
-with open('ieee_reference_.csv', 'rb') as fin:
+with open('ieee_reference.csv', 'rb') as fin:
     with open('ieee_reference_nbody.csv', 'wb') as fout:
         fout.write(fin.readline())
         reader = csv.reader(fin)
