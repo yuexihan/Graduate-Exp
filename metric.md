@@ -172,6 +172,18 @@ precisions => 0.335841673339
 precision => 0.340798638912
 classify => 0.495856816026
 
+# ieee-2010-deepwalk
+between_mean => 0.0997417132801
+between_variance => 0.00148656676453
+within_mean => 3.06171843091
+within_variance => 0.281854309215
+ref_mean => 3.76317633142
+ref_variance => 1.28676810125
+noref_mean => 4.35693264329
+noref_variance => 0.33504039367
+precision => 0.319300510357
+classify => 0.507028414654
+
 # ieee-lda
 /home/xyue1/code/Graduate-Exp/ieee2010/ieee_lda/save/ieee_category.txt
 /home/xyue1/code/Graduate-Exp/ieee2010/ieee_lda/doctopic.vec

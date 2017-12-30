@@ -139,10 +139,10 @@ class Model(object):
                 break
 
     def save_doc_vector(self):
-        self.load('save', 'best_v2')
+        self.load('save', 'best')
         represents = self.represent(self.args1, self.masks1, self.lens1)
         sess = self.sess
-        with open('ieee_vectors_v2.txt', 'wb') as f:
+        with open('ieee_vectors.txt', 'wb') as f:
             for paper in self.dataloader.papers:
                 args = [paper['arg']]
                 masks = [paper['mask']]
