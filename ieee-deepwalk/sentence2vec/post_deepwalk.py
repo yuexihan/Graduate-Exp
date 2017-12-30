@@ -2,7 +2,7 @@ import json
 import csv
 
 categories = []
-for line in open('ieee_category_2014.txt'):
+for line in open('ieee_category.txt'):
     categories.append(line)
 
 d = {}
