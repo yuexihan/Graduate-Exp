@@ -212,6 +212,30 @@ noref_variance => 0.400120892594
 precision => 0.504235812231
 classify => 0.627652341466
 
+# ieee-cbcp-idf-2
+between_mean => 0.586635464111
+between_variance => 0.00971385158586
+within_mean => 2.37880390604
+within_variance => 0.324965871384
+ref_mean => 2.35098226793
+ref_variance => 0.34689425778
+noref_mean => 3.43781160657
+noref_variance => 0.398633243358
+precision => 0.5
+classify => 0.626159168001
+
+# ieee-cbcp-4
+between_mean => 0.873475688713
+between_variance => 0.0265410865288
+within_mean => 1.37567231924
+within_variance => 0.192374156897
+ref_mean => 1.03289861911
+ref_variance => 0.137051003393
+noref_mean => 2.09594838646
+noref_variance => 0.330625342789
+precision => 0.534321889701
+classify => 0.679658799138
+
 # ieee-cbcp-idf-4
 between_mean => 0.883011338097
 between_variance => 0.0319105556007
